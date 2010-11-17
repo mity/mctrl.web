@@ -14,7 +14,8 @@ H1 {
 }
 
 H2 {
-    margin: 1em 0px 0px 0px;
+    clear: both;
+    margin: 1em 0px 0.5em 0px;
     padding: 0px;
     text-align: left;
 }
@@ -25,7 +26,11 @@ H3 {
     text-align: left;
 }
 
-P {
+#main P {
+    margin: 1em;
+}
+
+#main IMG {
     margin: 1em;
 }
 
@@ -37,7 +42,7 @@ CODE {
 }
 
 UL, OL {
-    margin: 0px 0px 0px 2em;
+    margin: 0px 1em 0px 2em;
     padding: 0px;
 }
 
@@ -125,6 +130,7 @@ A:hover IMG {
 }
 
 #footer {
+    clear: both;
     margin-top: 3em;
     text-align: center;
     background-color: rgb(0,0,0);
@@ -136,11 +142,11 @@ A:hover IMG {
     vertical-align: middle; aaa
 }
 
-#teaser {
-    margin-top: 1em;
-    padding-top: 183px;
-    background: url('teaser.jpg') no-repeat top center;
-    text-align: center;
+.attention {
+    margin: 1em;
+    padding: 8px 16px 8px 64px;
+    background: rgb(255,223,223) url('icon/attention.png') no-repeat 16px center;
+    border: solid 1px rgb(255,191,191);
 }
 
 

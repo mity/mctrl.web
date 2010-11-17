@@ -1,6 +1,5 @@
 <?php 
 
-
 function page_header($title)
 {
     echo "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n";
@@ -20,16 +19,22 @@ function page_header($title)
     
     echo "<div id=\"header\">\n";
     echo "\t<div id=\"header_download\">\n";
-    echo "\t\t<a href=\"https://sourceforge.net/projects/mctrl/files/\"><img src=\"download.png\"> Current release: 0.6.1</a>\n";
+    echo "\t\t<a href=\"http://sourceforge.net/projects/mctrl/files/\"><img src=\"icon/download.png\"> Current release: ";
+    include "_latest";
+    echo "</a>\n";
     echo "\t</div>\n";
     echo "\t<h1>mCtrl</h1>\n";
     page_menu($title);
     echo "</div>\n";
+    echo "\n";
+    
+    echo "<div id=\"main\">\n";
+    echo "\n";
 }
 
 function page_menu($title)
 {
-    echo "<div id=\"menu\">\n";
+    echo "\t<div id=\"menu\">\n";
     $f = fopen("_menu", "r");
     while(!feof($f)) {
         $line = fgets($f);
@@ -40,16 +45,19 @@ function page_menu($title)
         $item_title = trim($item_title);
         
         if($item_title == $title)
-            echo "\t<a href=\"$item_url\" class=\"active\">$item_title</a>\n";
+            echo "\t\t<a href=\"$item_url\" class=\"active\">$item_title</a>\n";
         else
-            echo "\t<a href=\"$item_url\">$item_title</a>\n";
+            echo "\t\t<a href=\"$item_url\">$item_title</a>\n";
     }
     fclose($f);
-    echo "</div>\n";
+    echo "\t</div>\n";
 }
 
 function page_footer()
 {
+    echo "\n";
+    echo "</div>\n";
+    echo "\n";
     echo "<div id=\"footer\">\n";
     echo "Hosted by <a href=\"http://sourceforge.net/\"><img src=\"http://sflogo.sourceforge.net/sflogo.php?group_id=286433&amp;type=8\" alt=\"SourceForge.net\"></a>\n";
     echo "</div>\n";
