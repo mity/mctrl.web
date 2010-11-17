@@ -18,12 +18,13 @@ function page_header($title)
     echo "\n";
     
     echo "<div id=\"header\">\n";
-    echo "\t<div id=\"header_download\">\n";
+    echo "\t<div id=\"download\">\n";
     echo "\t\t<a href=\"http://sourceforge.net/projects/mctrl/files/\"><img src=\"icon/download.png\"> Current release: ";
     include "_latest";
     echo "</a>\n";
     echo "\t</div>\n";
     echo "\t<h1>mCtrl</h1>\n";
+    echo "\t<div id=\"subtitle\">Bringing more controls for your Windows applications</div>\n";
     page_menu($title);
     echo "</div>\n";
     echo "\n";
@@ -67,7 +68,7 @@ function page_footer()
     echo "</html>\n";
 }
 
-function page_news($min_count=3, $max_days=365000)
+function page_news($min_count=3, $max_days=0)
 {
     echo "<ul>\n";
     $f = fopen("_history", "r");
@@ -81,10 +82,11 @@ function page_news($min_count=3, $max_days=365000)
         $item_date = trim($item_date);
         $item_desc = trim($item_desc);
         
-        $expiration = strtotime("+$max_days days", strtotime("$item_date"));
-        
-        if(strtotime(date("Y-m-d")) > $expiration && $n >= $min_count)
-            break;
+        if($max_days != 0) {
+            $expiration = strtotime("+$max_days days", strtotime("$item_date"));
+            if(strtotime(date("Y-m-d")) > $expiration && $n >= $min_count)
+                break;
+        }
         
         echo "\t<li><b>$item_date:</b> $item_desc</li>\n";
         $n++;
