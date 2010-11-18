@@ -87,7 +87,7 @@ A:hover IMG {
 
 #header #download {
     float: right;
-    padding: 2em 1em 1em 1em;
+    padding: 2em 1em 0em 1em;
     border: rgb(0, 200, 0);
     font-size: 80%;
     vertical-align: bottom;
