@@ -8,10 +8,8 @@ function page_header($title)
     
     echo "\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n";
     echo "\t\t<meta name=\"description\" content=\"mCtrl is a library providing set of additional user interface controls for Windows, intended to be complementary to standard controls from USER32.DLL and COMCTL32.DLL.\">\n";
-    if($title == "")
-        echo "\t\t<title>mCtrl Project</title>\n";
-    else
-        echo "\t\t<title>mCtrl Project: $title</title>\n";
+    echo "\t\t<meta name=\"keywords\" content=\"mCtrl, MCTRL.DLL, split button, html, mditab, C, development, GUI, interface, DLL, library, win32, windows\">\n";
+    echo "\t\t<title>mCtrl - library of controls for Win32</title>\n";
     echo "\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n";
     echo "\t</head>\n";
     echo "\t<body>\n";
