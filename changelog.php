@@ -3,6 +3,12 @@ require "_page.inc";
 page_header("ChangeLog");
 ?>
 
+<h2>0.7.1</h2>
+<ul>
+    <li><tt>MC_WC_HTML</tt>: Added new notification <tt>MC_HN_DOCUMENTCOMPLETE</tt>, which is fired when the document is fully loaded.</li>
+    <li><tt>MC_WC_HTML</tt>: Added new message <tt>MC_HM_SETTAGCONTENTS</tt>, allowing applicaitons to inject generated contents to the HTNL page.</li>
+</ul>
+
 <h2>0.7.0</h2>
 <ul>
     <li>Fixed assorted bugs.</li>
