@@ -20,8 +20,8 @@ for Windows, intended to be complementary to standard controls from
     mimics the Win32API duality controled with the preprocessor macro
     <tt>UNICODE</tt>.</li>
     <li><b>Consistency:</b> The controls keep consistent look and feel 
-    with the system, including support for 
-    <a href="http://msdn.microsoft.com/en-us/library/ms997646.aspx">XP theming</a>.</li>
+    with the system, including support for XP theming aka
+    <a href="http://msdn.microsoft.com/en-us/library/bb773187%28v=vs.85%29.aspx">visual styles</a>.</li>
     <li><b>Locale neutral:</b> The controls have no build-in strings
     presented to the user, so the library is independent on current locale
     and fits into applications supporting any set of languages and locales.</li>
