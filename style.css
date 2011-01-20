@@ -155,9 +155,9 @@ A:hover IMG {
     border-radius: 5px;
     -moz-border-radius: 5px;
     margin: 1em;
-    padding: 8px 16px 8px 64px;
-    background: rgb(255,223,223) url('icon/attention.png') no-repeat 16px center;
-    border: solid 1px rgb(255,191,191);
+    padding: 12px 16px 12px 80px;
+    background: rgb(223,223,255) url('icon/question.png') no-repeat 16px center;
+    border: solid 1px rgb(191,191,255);
 }
 
 
