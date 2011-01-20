@@ -58,7 +58,7 @@ function page_footer()
     echo "</div>\n";
     echo "\n";
     echo "<div id=\"footer\">\n";
-    echo "Hosted by <a href=\"http://sourceforge.net/\"><img src=\"http://sflogo.sourceforge.net/sflogo.php?group_id=286433&amp;type=8\" alt=\"SourceForge.net\"></a>\n";
+    echo "Hosted by <a href=\"http://sourceforge.net/projects/mctrl/\"><img src=\"http://sflogo.sourceforge.net/sflogo.php?group_id=286433&amp;type=8\" alt=\"SourceForge.net\"></a>\n";
     echo "</div>\n";
     
     echo "\n";
