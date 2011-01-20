@@ -3,6 +3,14 @@ require "_page.inc";
 page_header("ChangeLog");
 ?>
 
+<h2>0.8.0</h2>
+<ul>
+    <li>Relicensing the project. Library sources are now under <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">GNU LGPL 2.1</a>, examples in public domain.</li>
+    <li><tt>MC_WC_GRID</tt>: New grid control added.</li>
+    <li><tt>MC_TABLE</tt> type: A data model for the grid control.</li>
+    <li><tt>MC_VALUE</tt> and <tt>MC_VALUETYPE</tt> types: A way how to hold arbitrary data which can be used e.g. as the table cells.</li>
+</ul>
+
 <h2>0.7.1</h2>
 <ul>
     <li><tt>MC_WC_HTML</tt>: Added new notification <tt>MC_HN_DOCUMENTCOMPLETE</tt>, which is fired when the document is fully loaded.</li>

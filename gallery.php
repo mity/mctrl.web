@@ -11,6 +11,11 @@ systems where such functionality is not available natively.</p>
 
 <p>With mCtrl, you can use these buttons safely since Windows 2000.</p>
 
+<h2>Grid Control</h2>
+<a style="float:right" href="gallery/grid-orig.png"><img src="gallery/grid.png"></a>
+<p>Grid control provides what you might expect from it: shows arbitrary data
+in a 2-dimensional table.</p>
+
 <h2>HTML Control </h2>
 <a style="float:right" href="gallery/html-orig.png"><img src="gallery/html.png"></a>
 <p>Control embedding power of web browser into into your applications.</p>

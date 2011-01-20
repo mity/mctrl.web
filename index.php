@@ -29,7 +29,7 @@ project still lacks any kind of logo and sometimes some icon for purposes
 of the controls might be needed.</p>
 
 <h2>Recent News</h2>
-<?php page_news(3, 30); ?>
+<?php page_news(4, 30); ?>
 <p><a href="archive.php">News archive</a></p>
 
 <?php

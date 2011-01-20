@@ -28,9 +28,14 @@ for Windows, intended to be complementary to standard controls from
 </ul>
 
 <h2>License</h2>
-<p>mCtrl is covered by <a href="http://www.gnu.org/licenses/gpl-2.0.html">
-GNU General Public License version 2</a> or (at your option) newer version 
-of the license.
+<p>Since release 0.8.0 mCtrl is covered by 
+<a href="http://www.gnu.org/licenses/lgpl-2.1.html">GNU Lesser General Public License version 2.1</a>
+or (at your option) newer version of the license.</p>
+
+<p>Older releases were covered by stricter
+<a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU General Public License version 2.0</a>
+or (at your option) newer version of the license.</p>
+
 
 <?php  
 page_footer();
