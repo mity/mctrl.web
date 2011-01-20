@@ -13,7 +13,7 @@ systems where such functionality is not available natively.</p>
 
 <h2>Grid Control</h2>
 <a style="float:right" href="gallery/grid-orig.png"><img src="gallery/grid.png"></a>
-<p>Grid control provides what you might expect from it: shows arbitrary data
+<p>Grid control provides what you might expect from it: presenting arbitrary data
 in a 2-dimensional table.</p>
 
 <h2>HTML Control </h2>
