@@ -19,6 +19,7 @@ page_header("ChangeLog");
 
 <h2>0.7.0</h2>
 <ul>
+    <li>Prebuilt packages cpntain import library for MSVC.</li>
     <li>Fixed assorted bugs.</li>
     <li>Rename some public structures and other public identifiers  to make them more consistent with each other and with Win32API naming conventions.</li>
     <li><tt>MC_WC_HTML</tt>: Initial URL can be specfied during control creation with <tt>CreateWindow[Ex]()</tt> or via dialog template.</li>
