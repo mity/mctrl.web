@@ -4,8 +4,8 @@ page_header("About");
 ?>
 
 <h2>Introduction</h2>
-<p>mCtrl is a library providing set of additional user interface controls 
-for Windows, intended to be complementary to standard controls from 
+<p>mCtrl is C library providing set of additional user interface controls 
+for Windows, intended to be complementary to standard Win32API controls from 
 <tt>USER32.DLL</tt> and <tt>COMCTL32.DLL</tt>.</p>
 
 <p>See <a href="gallery.php">Gallery</a> to see brief overview of provided controls.</p>
