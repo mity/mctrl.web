@@ -3,7 +3,7 @@ require "_page.inc";
 page_header("Download");
 ?>
 
-<h2>Download</h2>
+<h2>Latest Release</h2>
 
 <ul>
 <?php 
@@ -11,7 +11,7 @@ page_header("Download");
     $baseurl = "http://sourceforge.net/projects/mctrl/files/$latest";
     
     $desc_map = array(
-        "src"    => "Sources.",
+        "src"    => "Complete source tree.",
         "doc"    => "Reference manual (HTML format).",
         "x86"    => "Prebuilt binary package (32bit). Includes prebuilt examples.",
         "x86_64" => "Prebuilt binary package (64bit). Includes prebuilt examples."
@@ -31,9 +31,11 @@ of the project's home on sourceforge.net.</p>
 
 
 <h2>Repository</h2>
-<p>You can also get latest sources from git repository, if you like to live on
-the bleeding edge. Assuming you have <a href="http://git-scm.com/">git</a>
-installed, you can do so by typing the following command:</p>
+
+<p>If you like to live on the bleeding edge you can also get latest sources
+from git repository, If you like to live on the bleeding edge. Assuming you
+have <a href="http://git-scm.com/">git</a> installed, you can do so by typing
+the following command:</p>
 <code>git clone git://mctrl.git.sourceforge.net/gitroot/mctrl/mctrl mctrl</code>
 
 <p>Or you can browse the sources online here:

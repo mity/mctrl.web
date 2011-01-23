@@ -4,20 +4,20 @@ page_header("Home");
 ?>
 
 <div class="attention">
-    New to mCtrl?<br>
+    New to the mCtrl project?<br>
     Start your survey on <a href="about.php">About</a> and <a href="gallery.php">Gallery</a>.
 </div>
 
 <h2>Current Status</h2>
 <ul>
-    <li>API of the library is not yet rock-stable and can change any time.
-    However bigger fundamental changes are unlikely.</li>
-    <li>The control portfolio is poor. More are planned. Especially
-    grid control, property list control, and advanced edit control.</li>
+    <li>API of the <tt>MCTRL.DLL</tt> library is not yet rock-stable and can
+    change any time. However bigger fundamental changes are unlikely.</li>
+    <li>The control portfolio is poor. More are planned; in particular
+    property list control, embeddable panels and advanced edit control.</li>
 </ul>
 
 <h2>Call for Help</h2>
-<p>Do you like the project? Do you think the progress of the library is slow?</p>
+<p>Do you like the project? Do you think the progress is too slow?</p>
 
 <p>Currently the project is one man show. Feel free to 
 <a href="mailto:mity[AT]morous[DOT]org">contact me</a> and join. 

@@ -160,4 +160,7 @@ A:hover IMG {
     border: solid 1px rgb(191,191,255);
 }
 
-
+.gallery {
+    float: right;
+    margin: 0px 1em;
+}

@@ -10,7 +10,7 @@ page_header("Documentation");
     echo "<a href=\"doc-$latest/\">mCtrl $latest Reference Manual</a></p>";
 ?>
 
-<p>It can also be <a href="download.php">downloaded</a>.</p>
+<p>It can also be <a href="download.php">downloaded</a> for offline reading.</p>
 
 <h2>Examples</h2>
 <p>Within the source code package you can find several examples demonstrating 
