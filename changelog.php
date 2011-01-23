@@ -3,6 +3,14 @@ require "_page.inc";
 page_header("ChangeLog");
 ?>
 
+<h2>0.8.1</h2>
+<ul>
+    <li><tt>MC_WC_GRID</tt>: Fixed painting with styles <tt>MC_GS_COLUMNHEADERCUSTOM</tt> and <tt>MC_GS_ROWHEADERCUSTOM</tt>.
+    <li><tt>MC_WC_GRID</tt>: New messages <tt>MC_GM_SETGEOMETRY</tt> and <tt>MC_GM_GETGEOMETRY</tt>.
+    <li><tt>MC_VALUE</tt>: New value type <tt>MC_VALUETYPE_ID_HICON</tt>.
+    <li>Some minor fixes.</li>
+</ul>
+
 <h2>0.8.0</h2>
 <ul>
     <li>Relicensing the project. Library sources are now under <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">GNU LGPL 2.1</a>, examples in public domain.</li>

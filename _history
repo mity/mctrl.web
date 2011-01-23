@@ -1,3 +1,4 @@
+2011-01-23 | 0.8.1 released a bit soon after 0.8.0. Fixed the buggy grid styles <tt>MC_GS_COLUMNHEADERCUSTOM</tt> and <tt>MC_GS_ROWHEADERCUSTOM</tt> and more. See <a href="changelog.php">ChangeLog</a>.
 2011-01-20 | 0.8.0 released and bringing new grid control. See <a href="changelog.php">ChangeLog</a> for list of changes.
 2011-01-18 | Relicensing the mCtrl library! The next release will be covered by <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL 2.1</a> instead of GPL 2.0.
 2010-12-17 | 0.7.1 released. See <a href="changelog.php">ChangeLog</a> for list of changes.
