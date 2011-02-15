@@ -1,6 +1,6 @@
 
 BODY {
-    background: rgb(255, 255, 255);
+    background: rgb(255,255,255);
     margin: 3em auto;
     font-family: sans-serif; 
     max-width: 800px
@@ -26,10 +26,6 @@ H3 {
     text-align: left;
 }
 
-#main P {
-    margin: 1em;
-}
-
 CODE {
     margin: 1em 3em;
     padding: 0.5em 1em;
@@ -47,17 +43,31 @@ LI {
     padding: 0px;
 }
 
+TABLE {
+    border-collapse: collapse;
+}
+
+TH {
+    background-color: rgb(223,223,223)
+}
+
+TH, TD {
+    text-align: left;
+    border: 1px solid rgb(191,191,191);
+    padding: 0.1em 0.2em;
+}
+
 A {
-    color: rgb(63, 63, 191);
+    color: rgb(63,63,191);
     background: transparent;
 }
 
 A:visited {
-    color: rgb(95, 31, 127);
+    color: rgb(95,31,127);
 }
 
 A:hover {
-    background: rgb(223, 223, 255);
+    background: rgb(223,223,255);
 }
 
 A IMG {
@@ -68,7 +78,7 @@ A IMG {
 }
 
 A:hover IMG {
-    background: rgb(223, 223, 255);
+    background: rgb(223,223,255);
 }
 
 #header {
@@ -87,7 +97,7 @@ A:hover IMG {
 #header #download {
     float: right;
     padding: 2em 1em 0em 1em;
-    border: rgb(0, 200, 0);
+    border: rgb(0,200,0);
     font-size: 80%;
     vertical-align: bottom;
     line-height: 32px;
@@ -100,7 +110,7 @@ A:hover IMG {
 }
 
 #header #download A:hover {
-    color: rgb(255, 255, 255);
+    color: rgb(255,255,255);
     background-color: rgb(0,0,0);
 }
 
@@ -136,6 +146,14 @@ A:hover IMG {
     background-color: rgb(127,127,127);
 }
 
+#main P {
+    margin: 1em;
+}
+
+#main TABLE {
+    margin: 0em 2em;
+}
+
 #footer {
     border-radius: 5px;
     -moz-border-radius: 5px;
@@ -163,4 +181,17 @@ A:hover IMG {
 .gallery {
     float: right;
     margin: 0px 1em 1em 1em;
+}
+
+.status_done {
+    background-color: rgb(223,255,233);
+}
+
+.status_wip {
+    background-color: rgb(255,255,233);
+    background-color: rgb(255,207,159);
+}
+
+.status_todo {
+    background-color: rgb(255,223,233);
 }
