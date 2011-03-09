@@ -44,7 +44,7 @@ lifetime.</p>
     <tbody>
         <tr><td>Button</td><td class="status_done">Done</td><td></td></tr>
         <tr><td>Edit</td><td class="status_todo">To do</td><td>Advanced edit control with syntax highlighting and other features</td></tr>
-        <tr><td>Panel</td><td class="status_todo">Planned</td><td>Embeddable and floatable panel/window</td></tr>
+        <tr><td>Panel</td><td class="status_todo">To do</td><td>Embeddable and floatable panel/window</td></tr>
         <tr><td>Grid</td><td class="status_wip">WIP</td><td></td></tr>
         <tr><td>HTML</td><td class="status_done">Done</td><td></td></tr>
         <tr><td>MDITab</td><td class="status_done">Done</td><td></td></tr>
