@@ -4,7 +4,7 @@ page_header("Gallery");
 ?>
 
 <h2>Button Control</h2>
-<a class="gallery" href="gallery/button-orig.png"><img src="gallery/button.png"></a>
+<a class="gallery" href="gallery/button-orig.png"><img src="gallery/button.png" alt="screenshot of the button control"></a>
 
 <p>Windows XP came with support for visual styles. Unfortunately 
 <tt>COMCTL32.DLL</tt> did not implement the visual styles for icon buttons
@@ -21,7 +21,7 @@ in Windows XP (if the application uses visual styles).</p>
 
 
 <h2>Grid Control</h2>
-<a class="gallery" href="gallery/grid-orig.png"><img src="gallery/grid.png"></a>
+<a class="gallery" href="gallery/grid-orig.png"><img src="gallery/grid.png" alt="screenshot of the grid control"></a>
 
 <p>Present your tabularly! Users can easily orientate oneselfs in large 
 quantity of data when the data is presented in the right way. In many cases
@@ -29,7 +29,7 @@ the grid may be the right way.
 
 
 <h2>HTML Control </h2>
-<a class="gallery" href="gallery/html-orig.png"><img src="gallery/html.png"></a>
+<a class="gallery" href="gallery/html-orig.png"><img src="gallery/html.png" alt="screenshot of the HTML control"></a>
 
 <p>Embed power of web browser into into your application.</p>
 
@@ -39,7 +39,7 @@ programs easily through the <tt>SendMessage()</tt> as any other control.</p>
 
 
 <h2>MDI Tab Control</h2>
-<a class="gallery" href="gallery/mditab-orig.png"><img src="gallery/mditab.png"></a>
+<a class="gallery" href="gallery/mditab-orig.png"><img src="gallery/mditab.png" alt="screenshot of the MDI tab control"></a>
 
 <p>Win32API traditionaly offers 
 <a href="http://msdn.microsoft.com/en-us/library/ms632591%28v=VS.85%29.aspx">
