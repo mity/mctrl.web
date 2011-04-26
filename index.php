@@ -40,7 +40,17 @@ lifetime.</p>
 <table>
     <thead>
         <tr><th>Control</th><th>Status</th><th>Note</th></tr>
-    </thread>
+    </thead>
+    <tfoot>
+        <tr><td colspan=3 class="legend">
+            Legend:
+            <ul>
+                <li>Done: Core functionality is done (though enhancements are still possible). Control is usable. Incompatible API changes are unlikely.</li>
+                <li>WIP: Work in progress. Related API can change quite often.</li>
+                <li>To do: The control should be eventually implemented someday.</li>
+            </ul>
+        </td></tr>
+    </tfoot>
     <tbody>
         <tr><td>Button</td><td class="status_done">Done</td><td></td></tr>
         <tr><td>Edit</td><td class="status_todo">To do</td><td>Advanced edit control with syntax highlighting and other features</td></tr>
@@ -50,16 +60,6 @@ lifetime.</p>
         <tr><td>MDITab</td><td class="status_done">Done</td><td></td></tr>
         <tr><td>PropView</td><td class="status_todo">To do</td><td>Property list view</td></tr>
     </tbody>
-    <tfoot>
-        <tr><td colspan=3 style="font-size: 80%; padding: 0.5em 1em;">
-            Legend:
-            <ul>
-                <li>Done: Core functionality is done (though enhancements are still possible). Control is usable. Incompatible API changes are unlikely.</li>
-                <li>WIP: Work in progress. Related API can change quite often.</li>
-                <li>To do: The control should be eventually implemented someday.</li>
-            </ul>
-        </td></tr>
-    </tfoot>
 </table>
 
 <?php

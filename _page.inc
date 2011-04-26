@@ -2,13 +2,15 @@
 
 function page_header($title)
 {
-    echo "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n";
+    echo "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/1998/REC-html40-19980424/strict.dtd\">\n";
     echo "<html>\n";
     echo "\t<head>\n";
     
     echo "\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n";
     echo "\t\t<meta name=\"description\" content=\"mCtrl is a library providing set of additional user interface controls for Windows, intended to be complementary to standard controls from USER32.DLL and COMCTL32.DLL.\">\n";
     echo "\t\t<meta name=\"keywords\" content=\"mCtrl, MCTRL.DLL, split button, html, mditab, C, development, GUI, interface, DLL, library, win32, windows\">\n";
+    echo "\t\t<meta name=\"robots\" content=\"index, follow\">\n";
+    echo "\t\t<meta name=\"author\" content=\"Martin Mitáš\">\n";
     echo "\t\t<title>mCtrl - library of controls for Win32</title>\n";
     echo "\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n";
     echo "\t</head>\n";
@@ -17,7 +19,7 @@ function page_header($title)
     
     echo "<div id=\"header\">\n";
     echo "\t<div id=\"download\">\n";
-    echo "\t\t<a href=\"http://sourceforge.net/projects/mctrl/files/\"><img src=\"icon/download.png\"> Current release: ";
+    echo "\t\t<a href=\"http://sourceforge.net/projects/mctrl/files/\"><img alt=\"\" src=\"icon/download.png\"> Current release: ";
     include "_latest";
     echo "</a>\n";
     echo "\t</div>\n";
