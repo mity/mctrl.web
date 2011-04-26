@@ -195,3 +195,7 @@ A:hover IMG {
 .status_todo {
     background-color: rgb(255,223,233);
 }
+
+.legend {
+    font-size: 80%;
+}
