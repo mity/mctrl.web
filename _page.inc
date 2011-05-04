@@ -1,6 +1,6 @@
 <?php 
 
-function page_header($title)
+function page_header($title,$extra="")
 {
     echo "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/1998/REC-html40-19980424/strict.dtd\">\n";
     echo "<html>\n";
@@ -13,6 +13,14 @@ function page_header($title)
     echo "\t\t<meta name=\"author\" content=\"Martin Mitáš\">\n";
     echo "\t\t<title>mCtrl - library of controls for Win32</title>\n";
     echo "\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n";
+
+    if(strpos($extra, "slimbox2") !== false) {
+        //echo "\t\t<script type=\"text/javascript\" src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js\"></script>\n";
+        echo "\t\t<script type=\"text/javascript\" src=\"slimbox2/jquery.min.js\"></script>\n";
+	    echo "\t\t<script type=\"text/javascript\" src=\"slimbox2/slimbox2.js\"></script>\n";
+        echo "\t\t<link rel=\"stylesheet\" href=\"slimbox2/slimbox2.css\" type=\"text/css\" media=\"screen\">\n";
+    }
+    
     echo "\t</head>\n";
     echo "\t<body>\n";
     echo "\n";
