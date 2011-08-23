@@ -3,6 +3,17 @@ require "_page.inc";
 page_header("ChangeLog");
 ?>
 
+<h2>0.8.2</h2>
+<ul>
+    <li><tt>MC_HVALUE</tt>: Renamed identifiers <tt>MC_VALUE</tt> and <tt>MC_VALUETYPE</tt> to <tt>MC_HVALUE</tt> and <tt>MC_HVALUETYPE</tt> respectivelly to highlight they are handle types.
+    <li><tt>MC_HVALUE</tt>: The value paint methods now support alignement.</li>
+    <li><tt>MC_WC_GRID</tt>: The cells can not be aligned both horizontally and vertically.</li>
+    <li><tt>MC_WC_HTML</tt>: React to keyboard events accordingly. This includes iterating over
+        embedded controls (e.g. in HTML forms) with <kbd>Tab</kbd> and <kbd>Shift+Tab</kbd> and shortcuts
+        <kbd>Ctrl+C</kbd> etc. to work.</li>
+    <li>Many minor bug fixes and enhancements.</li>
+</ul>
+
 <h2>0.8.1</h2>
 <ul>
     <li><tt>MC_WC_GRID</tt>: Fixed painting with styles <tt>MC_GS_COLUMNHEADERCUSTOM</tt> and <tt>MC_GS_ROWHEADERCUSTOM</tt>.</li>
@@ -34,7 +45,6 @@ page_header("ChangeLog");
     <li><tt>MC_WC_HTML</tt>: New style <tt>MC_HS_NOCONTEXTMENU</tt>.</li>
     <li><tt>MC_WC_HTML</tt>: Added support for application links and related notification <tt>MC_HN_APPLINK</tt>.</li>
     <li><tt>MC_WC_HTML</tt>: Added notification <tt>MC_HN_DOCUMENTCOMPLETE</tt>.</li>
-    </li>
 </ul>
 
 <h2>0.6.2</h2>
