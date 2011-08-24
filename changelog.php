@@ -5,7 +5,11 @@ page_header("ChangeLog");
 
 <h2>0.8.2</h2>
 <ul>
-    <li><tt>MC_HVALUE</tt>: Renamed identifiers <tt>MC_VALUE</tt> and <tt>MC_VALUETYPE</tt> to <tt>MC_HVALUE</tt> and <tt>MC_HVALUETYPE</tt> respectivelly to highlight they are handle types.
+    <li><tt>MC_HVALUE</tt>: Renamed identifiers <tt>MC_VALUE</tt> and <tt>MC_VALUETYPE</tt>
+        to <tt>MC_HVALUE</tt> and <tt>MC_HVALUETYPE</tt> respectivelly to highlight they
+        are handle types.</li>
+    <li><tt>MC_HTABLE</tt>: Renamed identifier <tt>MC_TABLE</tt> to <tt>MC_HTABLE</tt>
+        to highlight it is handle type.</li>
     <li><tt>MC_HVALUE</tt>: The value paint methods now support alignement.</li>
     <li><tt>MC_WC_GRID</tt>: The cells can not be aligned both horizontally and vertically.</li>
     <li><tt>MC_WC_HTML</tt>: React to keyboard events accordingly. This includes iterating over
