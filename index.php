@@ -58,7 +58,7 @@ lifetime.</p>
         <tr><td>Grid</td><td class="status_wip">WIP</td><td></td></tr>
         <tr><td>HTML</td><td class="status_done">Done</td><td></td></tr>
         <tr><td>MDITab</td><td class="status_done">Done</td><td></td></tr>
-        <tr><td>PropView</td><td class="status_todo">To do</td><td>Property list view</td></tr>
+        <tr><td>PropView</td><td class="status_todo">WIP</td><td>Property list view</td></tr>
     </tbody>
 </table>
 
