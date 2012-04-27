@@ -26,6 +26,10 @@ H3 {
     text-align: left;
 }
 
+.hinline {
+    font-weight: bolder;
+}
+
 CODE {
     margin: 1em 3em;
     padding: 0.5em 1em;

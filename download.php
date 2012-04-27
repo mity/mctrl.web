@@ -20,7 +20,7 @@ page_header("Download");
     foreach ($desc_map as $key => $desc) {
         $pkg = "mCtrl-$latest-$key.zip";
         $url = "$baseurl/$pkg/download";
-        echo "\t<li><b><a href=\"$url\">$pkg</a></b>: $desc</li>\n";
+        echo "\t<li><span class=hinline><a href=\"$url\">$pkg</a></b>:</span> $desc</li>\n";
     }
 ?>
 </ul>

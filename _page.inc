@@ -96,7 +96,7 @@ function page_news($min_count=3, $max_days=0)
                 break;
         }
         
-        echo "\t<li><b>$item_date:</b> $item_desc</li>\n";
+        echo "\t<li><span class=hinline>$item_date:</span> $item_desc</li>\n";
         $n++;
     }    
     fclose($f);
