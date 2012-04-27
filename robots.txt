@@ -1,2 +1,11 @@
 User-agent: *
 Disallow:
+Sitemap: http://mctrl.sourceforge.net/sitemap.xml
+Sitemap: http://mctrl.sourceforge.net/doc-0.6.0/sitemap.xml
+Sitemap: http://mctrl.sourceforge.net/doc-0.6.1/sitemap.xml
+Sitemap: http://mctrl.sourceforge.net/doc-0.6.2/sitemap.xml
+Sitemap: http://mctrl.sourceforge.net/doc-0.7.0/sitemap.xml
+Sitemap: http://mctrl.sourceforge.net/doc-0.7.1/sitemap.xml
+Sitemap: http://mctrl.sourceforge.net/doc-0.8.0/sitemap.xml
+Sitemap: http://mctrl.sourceforge.net/doc-0.8.1/sitemap.xml
+Sitemap: http://mctrl.sourceforge.net/doc-0.8.2/sitemap.xml
