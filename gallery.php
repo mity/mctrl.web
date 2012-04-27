@@ -23,9 +23,9 @@ in Windows XP (if the application uses visual styles).</p>
 <h2>Grid Control</h2>
 <a class="gallery" rel="lightbox" href="gallery/grid-orig.png"><img src="gallery/grid.png" alt="screenshot of the grid control"></a>
 
-<p>Present your tabularly! Users can easily orientate oneselfs in large 
-quantity of data when the data is presented in the right way. In many cases
-the grid may be the right way.
+<p>Present your tabularly! Users can easily understand large quantity of data
+when the data is presented in the right way. In many cases, the grid may be
+the right way.
 
 
 <h2>HTML Control </h2>
