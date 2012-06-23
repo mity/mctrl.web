@@ -27,7 +27,7 @@ function page_header($title,$extra="")
     
     echo "<div id=\"header\">\n";
     echo "\t<div id=\"download\">\n";
-    echo "\t\t<a href=\"http://sourceforge.net/projects/mctrl/files/\"><img alt=\"\" src=\"icon/download.png\"> Current release: ";
+    echo "\t\t<a href=\"http://sourceforge.net/projects/mctrl/files/mctrl/\"><img alt=\"\" src=\"icon/download.png\"> Current release: ";
     include "_latest";
     echo "</a>\n";
     echo "\t</div>\n";

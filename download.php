@@ -8,7 +8,7 @@ page_header("Download");
 <ul>
 <?php 
     $latest = file_get_contents("_latest");
-    $baseurl = "http://sourceforge.net/projects/mctrl/files/$latest";
+    $baseurl = "http://sourceforge.net/projects/mctrl/files/mctrl/mctrl-$latest";
     
     $desc_map = array(
         "src"    => "Complete source tree.",
@@ -26,7 +26,7 @@ page_header("Download");
 </ul>
 
 <p>All these packages as well as their older versions can be found at the 
-<a href="https://sourceforge.net/projects/mctrl/files/">download area</a>
+<a href="https://sourceforge.net/projects/mctrl/files/mctrl/">download area</a>
 of the project's home on sourceforge.net.</p>
 
 
