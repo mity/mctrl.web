@@ -23,7 +23,8 @@ developers can find it useful too.</p>
     version</li>
     <li><span class=hinline>System requirements:</span> MS Windows XP or newer
     (because of <tt>UXTHEME.DLL</tt>) with visual styles enabled</li>
-    <li><span class=hinline>Download:</span> soon</li>
+    <li><span class=hinline>Download:</span><a href="http://sourceforge.net/projects/mctrl/files/theme-explorer/">
+    http://sourceforge.net/projects/mctrl/files/theme-explorer</a></li>
 </ul>
 
 <?php
