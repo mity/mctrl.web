@@ -51,6 +51,17 @@ unfriendly and surprisingly often they do not understand it.</p>
 instead. That's exactly what this control is intended for: It's a tab-like
 replacement for MDI.</p>
 
+
+<h2>Menubar</h2>
+<a class="gallery" rel="lightbox" href="gallery/menubar.png"><img src="gallery/menubar-thumb.png" alt="screenshot of the menubar control"></a>
+
+<p>Instead of standard window menu, many applications use a menubar which
+can be embedded into <tt>REBAR</tt> control. This solution allows user to save
+space on his monitor, by e.g. placing a toolbar and menubar to a single row.</p>
+
+<p>The control also offers a possibility to use the menubar on other palces then
+on top of client area.</p>
+
 <?php
 page_footer();
 ?>

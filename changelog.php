@@ -1,7 +1,20 @@
-<?php 
+<?php
 require "_page.inc";
 page_header("ChangeLog");
 ?>
+
+<h2>0.8.3</h2>
+<ul>
+    <li><tt>MC_WC_MENUBAR</tt>: New control.</li>
+    <li><tt>MC_WC_PROPVIEW</tt>: New control (incomplete and unsuable yet).</li>
+    <li><tt>MC_WC_HTML</tt>: New messages <tt>MC_HM_GOBACK</tt> and <tt>MC_HM_CANBACK</tt>.</li>
+    <li><tt>MC_WC_HTML</tt>: New notifications <tt>MC_HN_HISTORY</tt>, <tt>MC_HN_STATUSTEXT</tt>, <tt>MC_HN_TITLETEXT</tt>, <tt>MC_HN_PROGRESS</tt> and <tt>MC_HN_NEWWINDOW</tt>.</li>
+    <li>Many controls now support common messages <tt>CCM_SETUNICODEFORMAT</tt>, <tt>CCM_GETUNICODEFORMAT</tt>,
+    <tt>CCM_SETUNICODEFORMAT</tt> and <tt>CCM_SETNOTIFYWINDOW</tt>.</li>
+    <li>Controls now support standard notification <tt>NM_OUTOFMEMORY</tt>.</li>
+    <li>New functions for dialog handling.</li>
+    <li>Many minor bug fixes, enhancements and optimizations.</li>
+</ul>
 
 <h2>0.8.2</h2>
 <ul>

@@ -1,4 +1,4 @@
-<?xml version="0.5" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>http://mctrl.sourceforge.net/</loc>
@@ -39,5 +39,10 @@
 		<loc>http://mctrl.sourceforge.net/gallery.php</loc>
 		<changefreq>monthly</changefreq>
 		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://mctrl.sourceforge.net/tools.php</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.3</priority>
 	</url>
 </urlset>

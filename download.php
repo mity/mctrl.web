@@ -12,9 +12,7 @@ page_header("Download");
 
     $desc_map = array(
         "src"    => "Complete source tree.",
-        "doc"    => "Reference manual (HTML format).",
-        "x86"    => "Prebuilt binary package (32bit). Includes prebuilt examples.",
-        "x86_64" => "Prebuilt binary package (64bit). Includes prebuilt examples."
+        "bin"    => "Prebuilt binary package (both 32bit and 64bit). Includes documentation and examples.",
     );
 
     foreach ($desc_map as $key => $desc) {
