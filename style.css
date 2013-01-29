@@ -128,11 +128,13 @@ A:hover IMG {
     -moz-border-radius: 0px 0px 5px 5px;
     background-color: rgb(95,95,95);
     margin-down: 3em;
-    padding: 0.2em 0.5em;
+    padding: 0.5em 0.5em 0.2em 0.5em;
     text-align: center;
 }
 
 #menu A, #menu A:visited {
+    border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
     color: rgb(191,191,191);
     background-color: rgb(95,95,95);
     font-weight: bold;
@@ -163,6 +165,7 @@ A:hover IMG {
     -moz-border-radius: 5px;
     clear: both;
     margin-top: 3em;
+    padding: 0.2em;
     text-align: center;
     background-color: rgb(0,0,0);
     color: rgb(255,255,255);
@@ -201,5 +204,6 @@ A:hover IMG {
 }
 
 .legend {
+    padding: 1em;
     font-size: 80%;
 }
