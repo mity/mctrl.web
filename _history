@@ -1,3 +1,4 @@
+2013-01-29 | 0.8.4 release, which fixes one but important bug. All users of older version are recommended to upgrade. More info in the <a href="changelog.php">ChangeLog</a>.
 2012-10-05 | 0.8.3 released. Many bugfixes and enhancements. See <a href="changelog.php">ChangeLog</a> for list of changes.
 2012-09-01 | The git repo has been moved from <tt>git://mctrl.git.sourceforge.net/gitroot/mctrl/mctrl</tt> to <tt>ssh://git.code.sf</tt>.net/p/mctrl/code.
 2012-05-11 | <a href="tools.php#theme-explorer">A ThemeExplorer</a>, new tool helping to explore dark corners of visual styles, has been born to developers. You can find it in <a href="http://sourceforge.net/projects/mctrl/files/theme-explorer/">sf.net project download area</a>.

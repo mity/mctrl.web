@@ -3,6 +3,13 @@ require "_page.inc";
 page_header("ChangeLog");
 ?>
 
+<h2>0.8.4</h2>
+<ul>
+    <li>Fixed a buffer overflow bug in <tt>mc_str_n()</tt> which could lead to
+        application crash. The function which is actually used in almost all
+        controls when converting or copying strings.</li>
+</ul>
+
 <h2>0.8.3</h2>
 <ul>
     <li><tt>MC_WC_MENUBAR</tt>: New control.</li>
