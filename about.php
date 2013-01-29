@@ -1,11 +1,11 @@
-<?php 
+<?php
 require "_page.inc";
 page_header("About");
 ?>
 
 <h2>Introduction</h2>
-<p>mCtrl is C library providing set of additional user interface controls 
-for Windows, intended to be complementary to standard Win32API controls from 
+<p>mCtrl is C library providing set of additional user interface controls
+for Windows, intended to be complementary to standard Win32API controls from
 <tt>USER32.DLL</tt> and <tt>COMCTL32.DLL</tt>.</p>
 
 <p>Visit <a href="gallery.php">Gallery</a> to see brief overview of provided
@@ -24,14 +24,10 @@ controls.</p>
             look and feel with the system, including support for XP theming
             aka <a href="http://msdn.microsoft.com/en-us/library/bb773187%28v=vs.85%29.aspx">
             visual styles</a>.</li>
-    <li><span class=hinline>Locale neutral:</span> The controls have no built-in
-            strings presented to the user, so the library is independent on current
-            locale and fits into applications supporting any set of languages
-            and locales.</li>
 </ul>
 
 <h2>License</h2>
-<p>Since release 0.8.0 mCtrl is covered by
+<p>Since release 0.8.0, mCtrl is covered by
 <a href="http://www.gnu.org/licenses/lgpl-2.1.html">GNU Lesser General Public
 License version 2.1</a> or (at your option) newer version of the license.</p>
 
@@ -48,11 +44,10 @@ License version 2.1</a> or (at your option) newer version of the license.</p>
 
 <p>Source code of examples is in public domain.</p>
 
-<p>Releases older then the 0.8.0 were covered by stricter 
+<p>Releases older then the 0.8.0 were covered by stricter
 <a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU General Public License
 version 2.0</a> or (at your option) newer version of the license.</p>
 
-
-<?php  
+<?php
 page_footer();
 ?>
