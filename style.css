@@ -190,7 +190,11 @@ A:hover IMG {
     margin: 0px 1em 1em 1em;
 }
 
-.status_done {
+.status_stable {
+    background-color: rgb(191,223,191);
+}
+
+.status_experimental {
     background-color: rgb(223,255,233);
 }
 

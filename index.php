@@ -54,17 +54,17 @@ Note that it reflects current state of git repository, not last release.</p>
         </td></tr>
     </tfoot>
     <tbody>
-        <tr><td>Button</td><td class="status_stable">Done</td><td>Partial emulation of split button on Windows 2000 and XP.</td></tr>
-        <tr><td>Chart</td><td class="status_experimental">WIP</td><td>Pie, scatter, column and bar charts implemented. Line and area charts are in to do list.</td></tr>
+        <tr><td>Button</td><td class="status_stable">Stable</td><td>Partial emulation of split button on Windows 2000 and XP.</td></tr>
+        <tr><td>Chart</td><td class="status_experimental">Experimental</td><td>Will come in 0.9.0</td></tr>
         <tr><td>Edit</td><td class="status_todo">Planned</td><td>Edit control with syntax highlighting and other advanced features.</td></tr>
         <tr><td>Grid</td><td class="status_wip">WIP</td><td>For now, it can only display values. No editing capabilities.</td></tr>
-        <tr><td>Expand</td><td class="status_experimental">Done</td><td>Expand/collapse control.</td></tr>
-        <tr><td>HTML</td><td class="status_stable">Done</td><td></td></tr>
-        <tr><td>MDITab</td><td class="status_stable">Done</td><td></td></tr>
-        <tr><td>MenuBar</td><td class="status_experimental">Done</td><td></td></tr>
+        <tr><td>Expand</td><td class="status_experimental">Experimental</td><td>Expand/collapse control. Will come in 0.9.0</td></tr>
+        <tr><td>HTML</td><td class="status_stable">Stable</td><td></td></tr>
+        <tr><td>MDITab</td><td class="status_stable">Stable</td><td></td></tr>
+        <tr><td>MenuBar</td><td class="status_experimental">Experimental</td><td>Will come in 0.9.0</td></tr>
         <tr><td>Panel</td><td class="status_todo">Planned</td><td>Embeddable and floatable panel/toolbox.</td></tr>
         <tr><td>PropView</td><td class="status_wip">WIP</td><td>Property list view.</td></tr>
-        <tr><td>TreeListView</td><td class="status_wip">Planned</td><td>Tree list view, combining list view (<tt>LVS_REPORT</tt>) and tree view.</td></tr>
+        <tr><td>TreeListView</td><td class="status_wip">WIP</td><td>Tree list view, combining list view (<tt>LVS_REPORT</tt>) and tree view.</td></tr>
     </tbody>
 </table>
 
