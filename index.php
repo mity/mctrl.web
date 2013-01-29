@@ -61,7 +61,7 @@ Note that it reflects current state of git repository, not last release.</p>
         <tr><td>Expand</td><td class="status_experimental">Experimental</td><td>Expand/collapse control. Will come in 0.9.0</td></tr>
         <tr><td>HTML</td><td class="status_stable">Stable</td><td></td></tr>
         <tr><td>MDITab</td><td class="status_stable">Stable</td><td></td></tr>
-        <tr><td>MenuBar</td><td class="status_experimental">Experimental</td><td>Will come in 0.9.0</td></tr>
+        <tr><td>MenuBar</td><td class="status_experimental">Experimental</td><td></td></tr>
         <tr><td>Panel</td><td class="status_todo">Planned</td><td>Embeddable and floatable panel/toolbox.</td></tr>
         <tr><td>PropView</td><td class="status_wip">WIP</td><td>Property list view.</td></tr>
         <tr><td>TreeListView</td><td class="status_wip">WIP</td><td>Tree list view, combining list view (<tt>LVS_REPORT</tt>) and tree view.</td></tr>
