@@ -36,15 +36,19 @@ generally (almost) complete are unlikely.</p>
 and binary-level compatibility for the major version's lifetime.</p>
 
 <p>The following table summarizes current development stable of a control.
-Note that it reflects current state of git repository, not last release.</p>
+The column git refers to current state of git repositor. That will eventually
+become 0.9.0.</p>
+
+<p>Note that 0.9.0 will bring some incompatible changes and should generally
+be the last major version before reaching the holy grail of 1.0.</p>
 
 <table>
     <thead>
-        <tr><th>Control</th><th>Status</th><th>Note</th></tr>
+        <tr><th>Control</th><th>0.8.4</th><th>git</th><th>Note</th></tr>
     </thead>
     <tfoot>
-        <tr><td colspan=3 class="legend">
-            Status:
+        <tr><td colspan=4 class="legend">
+            Status legend:
             <ul>
                 <li>Stable: The component is already considered stable and its API should no be subject of incompatible changes anymore.</li>
                 <li>Experimental: Core functionality is done (though enhancements are still possible of course). Control is usable. Incompatible API changes are still possible if such need arises.</li>
@@ -54,17 +58,66 @@ Note that it reflects current state of git repository, not last release.</p>
         </td></tr>
     </tfoot>
     <tbody>
-        <tr><td>Button</td><td class="status_stable">Stable</td><td>Partial emulation of split button on Windows 2000 and XP.</td></tr>
-        <tr><td>Chart</td><td class="status_experimental">Experimental</td><td>Will come in 0.9.0</td></tr>
-        <tr><td>Edit</td><td class="status_todo">Planned</td><td>Edit control with syntax highlighting and other advanced features.</td></tr>
-        <tr><td>Grid</td><td class="status_wip">WIP</td><td>For now, it can only display values. No editing capabilities.</td></tr>
-        <tr><td>Expand</td><td class="status_experimental">Experimental</td><td>Expand/collapse control. Will come in 0.9.0</td></tr>
-        <tr><td>HTML</td><td class="status_stable">Stable</td><td></td></tr>
-        <tr><td>MDITab</td><td class="status_stable">Stable</td><td></td></tr>
-        <tr><td>MenuBar</td><td class="status_experimental">Experimental</td><td></td></tr>
-        <tr><td>Panel</td><td class="status_todo">Planned</td><td>Embeddable and floatable panel/toolbox.</td></tr>
-        <tr><td>PropView</td><td class="status_wip">WIP</td><td>Property list view.</td></tr>
-        <tr><td>TreeListView</td><td class="status_wip">WIP</td><td>Tree list view, combining list view (<tt>LVS_REPORT</tt>) and tree view.</td></tr>
+        <tr>
+            <td>Button</td>
+            <td class="status_experimental">Experimental</td>
+            <td class="status_stable">Stable</td>
+            <td>Partial emulation of split button on Windows 2000 and XP.</td>
+        </tr>
+        <tr>
+            <td>Chart</td>
+            <td>n/a</td>
+            <td class="status_experimental">Experimental</td>
+            <td>Pie, line, area, column and bar charts.</td>
+        </tr>
+        <tr>
+            <td>Edit</td>
+            <td>n/a</td>
+            <td class="status_todo">Planned</td>
+            <td>Edit control with syntax highlighting and other advanced features.</td>
+        </tr>
+        <tr>
+            <td>Grid</td>
+            <td class="status_wip">WIP</td>
+            <td class="status_wip">WIP</td>
+            <td>For now, it can only display values. No editing capabilities.</td>
+        </tr>
+        <tr>
+            <td>Expand</td>
+            <td>n/a</td>
+            <td class="status_experimental">Experimental</td>
+            <td>Expand/collapse control.</td>
+        </tr>
+        <tr>
+            <td>HTML</td>
+            <td class="status_experimental">Experimental</td>
+            <td class="status_stable">Stable</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>MDITab</td>
+            <td class="status_experimental">Experimental</td>
+            <td class="status_stable">Stable</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>MenuBar</td>
+            <td class="status_experimental">Experimental</td>
+            <td class="status_experimental">Experimental</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Panel</td>
+            <td>n/a</td>
+            <td class="status_todo">Planned</td>
+            <td>Embeddable and floatable panel/toolbox.</td>
+        </tr>
+        <tr>
+            <td>PropView</td>
+            <td class="status_wip">WIP</td>
+            <td class="status_wip">WIP</td>
+            <td>Property list view.</td>
+        </tr>
     </tbody>
 </table>
 
