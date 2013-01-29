@@ -1,6 +1,6 @@
 2012-10-05 | 0.8.3 released. Many bugfixes and enhancements. See <a href="changelog.php">ChangeLog</a> for list of changes.
-2012-09-01 | The git repo has been moved from git://mctrl.git.sourceforge.net/gitroot/mctrl/mctrl to ssh://git.code.sf.net/p/mctrl/code.
-2012-05-11 | A ThemeExplorer, new tool helping to explore dark corners of visual styles, has been born to developers. You can find it in <a href="http://sourceforge.net/projects/mctrl/files/theme-explorer/">sf.net project download area</a>.
+2012-09-01 | The git repo has been moved from <tt>git://mctrl.git.sourceforge.net/gitroot/mctrl/mctrl</tt> to <tt>ssh://git.code.sf</tt>.net/p/mctrl/code.
+2012-05-11 | <a href="tools.php#theme-explorer">A ThemeExplorer</a>, new tool helping to explore dark corners of visual styles, has been born to developers. You can find it in <a href="http://sourceforge.net/projects/mctrl/files/theme-explorer/">sf.net project download area</a>.
 2011-08-24 | 0.8.2 released. There are assrtoed minor fixes and enhancements. See <a href="changelog.php">ChangeLog</a> for more details.
 2011-01-23 | 0.8.1 released quite soon after 0.8.0. Fixed the buggy grid styles <tt>MC_GS_COLUMNHEADERCUSTOM</tt> and <tt>MC_GS_ROWHEADERCUSTOM</tt> and more. See <a href="changelog.php">ChangeLog</a> for full list of changes.
 2011-01-20 | 0.8.0 released and bringing new grid control. See <a href="changelog.php">ChangeLog</a> for list of changes.
