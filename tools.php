@@ -22,12 +22,14 @@ developers can find it useful too.</p>
 <ul>
     <li><span class=hinline>Audience:</span> Custom control developers</li>
     <li><span class=hinline>Download:</span><a href="http://sourceforge.net/projects/mctrl/files/theme-explorer/">
-    http://sourceforge.net/projects/mctrl/files/theme-explorer</a></li>
+        http://sourceforge.net/projects/mctrl/files/theme-explorer</a></li>
+    <li><span class=hinline>Code repository:</span>
+        <a href="http://github.com/mity/mctrl">http://github.com/mity/mctrl</a></li>
     <li><span class=hinline>System requirements:</span> MS Windows XP or newer
-    (because of <tt>UXTHEME.DLL</tt>) with visual styles enabled</li>
+        (because of <tt>UXTHEME.DLL</tt>) with visual styles enabled</li>
     <li><span class=hinline>License:</span> <a href="http://www.gnu.org/licenses/gpl-2.0.html">
-    GNU General Public License version 2.0</a> or (at your option) any later
-    version</li>
+        GNU General Public License version 2.0</a> or (at your option) any later
+        version</li>
 </ul>
 
 <?php

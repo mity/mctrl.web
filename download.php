@@ -31,13 +31,13 @@ of the project's home on sourceforge.net.</p>
 <h2>Repository</h2>
 
 <p>If you like to live on the bleeding edge you can also get latest sources
-from git repository, If you like to live on the bleeding edge. Assuming you
+from our git repository, If you like to live on the bleeding edge. Assuming you
 have <a href="http://git-scm.com/">git</a> installed, you can do so by typing
 the following command:</p>
-<code>git clone ssh://git.code.sf.net/p/mctrl/code mctrl</code>
+<code>git clone git://github.com/mity/mctrl.git</code>
 
 <p>Or you can browse the sources online here:
-<a href="http://sourceforge.net/p/mctrl/code/">http://sourceforge.net/p/mctrl/code/</a></p>
+<a href="http://github.com/mity/mctrl/"http://github.com/mity/mctrl/</a></p>
 
 <?php
 page_footer();

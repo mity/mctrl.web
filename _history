@@ -1,3 +1,4 @@
+2013-02-01 | Moving git code repositories to <a href="http://github.com">github.com</a>. sf.net will stay for release package distribution and project home site, but development will be moved.
 2013-01-29 | 0.8.4 release, which fixes one but important bug. All users of older version are recommended to upgrade. More info in the <a href="changelog.php">ChangeLog</a>.
 2012-10-05 | 0.8.3 released. Many bugfixes and enhancements. See <a href="changelog.php">ChangeLog</a> for list of changes.
 2012-09-01 | The git repo has been moved from <tt>git://mctrl.git.sourceforge.net/gitroot/mctrl/mctrl</tt> to <tt>ssh://git.code.sf</tt>.net/p/mctrl/code.
