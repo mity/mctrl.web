@@ -100,7 +100,7 @@ A:hover IMG {
 
 #header #download {
     float: right;
-    padding: 2em 1em 0em 1em;
+    padding: 1em 1em 0em 1em;
     border: rgb(0,200,0);
     font-size: 80%;
     vertical-align: bottom;
@@ -176,38 +176,25 @@ A:hover IMG {
     vertical-align: middle;
 }
 
-.attention {
+.info_direction {
     border-radius: 5px;
     -moz-border-radius: 5px;
     margin: 1em;
     padding: 12px 16px 12px 80px;
-    background: rgb(223,223,255) url('icon/question.png') no-repeat 16px center;
+    background: rgb(223,223,255) url('icon/direction.png') no-repeat 16px center;
+    border: solid 1px rgb(191,191,255);
+}
+
+.info {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    margin: 1em;
+    padding: 12px 16px 12px 80px;
+    background: rgb(223,223,255) url('icon/info.png') no-repeat 16px center;
     border: solid 1px rgb(191,191,255);
 }
 
 .gallery {
     float: right;
     margin: 0px 1em 1em 1em;
-}
-
-.status_stable {
-    background-color: rgb(191,223,191);
-}
-
-.status_experimental {
-    background-color: rgb(223,255,233);
-}
-
-.status_wip {
-    background-color: rgb(255,255,233);
-    background-color: rgb(255,207,159);
-}
-
-.status_todo {
-    background-color: rgb(255,223,233);
-}
-
-.legend {
-    padding: 1em;
-    font-size: 80%;
 }

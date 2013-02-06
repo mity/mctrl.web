@@ -3,7 +3,7 @@ require "_page.inc";
 page_header("Tools", "slimbox2");
 ?>
 
-<div class="attention">
+<div class="info">
 These tools are helpful for development of mCtrl project. If you intend only use mCtrl, then you probably do not need them.
 </div>
 

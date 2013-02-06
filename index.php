@@ -3,7 +3,7 @@ require "_page.inc";
 page_header("Home");
 ?>
 
-<div class="attention">
+<div class="info_direction">
     New to the mCtrl project?<br>
     Start your survey on <a href="about.php">About</a> and <a href="gallery.php">Gallery</a>.
 </div>
@@ -32,94 +32,18 @@ of the controls might be needed.</p>
 change any time. However bigger fundamental changes to components which are
 generally (almost) complete are unlikely.</p>
 
-<p>Once we reach 1.0 version, we will freeze the ABI and keep both source-level
-and binary-level compatibility for the major version's lifetime.</p>
+<p>Once we reach version 1.0, the API will be stabilized and since that point
+the source as well as binary compatibility will become strict requirement
+for further development.</p>
 
-<p>The following table summarizes current development stable of a control.
-The column git refers to current state of git repositor. That will eventually
-become 0.9.0.</p>
+<p>The version 0.9 is considered the last big step towards 1.0. During the 0.9.x
+lifetime the <tt>&lt;mCtrl/value.h&gt;</tt> and controls used that API (grid,
+property list view) should be finished and their API stablized, and once that
+happens we will approach to release 1.0 as soon as possible.</p>
 
-<p>Note that 0.9.0 will bring some incompatible changes and should generally
-be the last major version before reaching the holy grail of 1.0.</p>
+<p>All the other controls and modules can be improved of course too, but
+for them the incompatibible changes in the API are very unlikely.</p>
 
-<table>
-    <thead>
-        <tr><th>Control</th><th>0.8.4</th><th>git</th><th>Note</th></tr>
-    </thead>
-    <tfoot>
-        <tr><td colspan=4 class="legend">
-            Status legend:
-            <ul>
-                <li>Stable: The component is already considered stable and its API should no be subject of incompatible changes anymore.</li>
-                <li>Experimental: Core functionality is done (though enhancements are still possible of course). Control is usable. Incompatible API changes are still possible if such need arises.</li>
-                <li>WIP: Work in progress. Related API can change quite often and probaly will.</li>
-                <li>Planned: The control should be eventually implemented.</li>
-            </ul>
-        </td></tr>
-    </tfoot>
-    <tbody>
-        <tr>
-            <td>Button</td>
-            <td class="status_experimental">Experimental</td>
-            <td class="status_stable">Stable</td>
-            <td>Partial emulation of split button on Windows 2000 and XP.</td>
-        </tr>
-        <tr>
-            <td>Chart</td>
-            <td>n/a</td>
-            <td class="status_experimental">Experimental</td>
-            <td>Pie, line, area, column and bar charts.</td>
-        </tr>
-        <tr>
-            <td>Edit</td>
-            <td>n/a</td>
-            <td class="status_todo">Planned</td>
-            <td>Edit control with syntax highlighting and other advanced features.</td>
-        </tr>
-        <tr>
-            <td>Grid</td>
-            <td class="status_wip">WIP</td>
-            <td class="status_wip">WIP</td>
-            <td>For now, it can only display values. No editing capabilities.</td>
-        </tr>
-        <tr>
-            <td>Expand</td>
-            <td>n/a</td>
-            <td class="status_experimental">Experimental</td>
-            <td>Expand/collapse control.</td>
-        </tr>
-        <tr>
-            <td>HTML</td>
-            <td class="status_experimental">Experimental</td>
-            <td class="status_stable">Stable</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>MDITab</td>
-            <td class="status_experimental">Experimental</td>
-            <td class="status_stable">Stable</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>MenuBar</td>
-            <td class="status_experimental">Experimental</td>
-            <td class="status_experimental">Experimental</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Panel</td>
-            <td>n/a</td>
-            <td class="status_todo">Planned</td>
-            <td>Embeddable and floatable panel/toolbox.</td>
-        </tr>
-        <tr>
-            <td>PropView</td>
-            <td class="status_wip">WIP</td>
-            <td class="status_wip">WIP</td>
-            <td>Property list view.</td>
-        </tr>
-    </tbody>
-</table>
 
 <?php
 page_footer();

@@ -37,7 +37,7 @@ the following command:</p>
 <code>git clone git://github.com/mity/mctrl.git</code>
 
 <p>Or you can browse the sources online here:
-<a href="http://github.com/mity/mctrl/"http://github.com/mity/mctrl/</a></p>
+<a href="http://github.com/mity/mctrl/">http://github.com/mity/mctrl/</a></p>
 
 <?php
 page_footer();

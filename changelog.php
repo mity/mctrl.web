@@ -3,6 +3,19 @@ require "_page.inc";
 page_header("ChangeLog");
 ?>
 
+<h2>0.9.0</h2>
+<ul>
+    <li>All controls: Renumbered message and notification values so that they
+        are distinct for each control.</li>
+    <li><tt>MC_WC_EXPAND</tt>: New control.</li>
+    <li><tt>MC_WC_CHART</tt>: New control.</li>
+    <li><tt>MC_WC_TREELIST</tt>: New control.</li>
+    <li>Reworked interface of <tt>&lt;mCtrl/value.h&gt;</tt> as it was too difficult to use, and the API hasd many flows.</li>
+    <li><tt>MC_WC_PROPVIEW</tt> and <tt>MC_WC_GRID</tt>: Changes to reflect new interface of values.</li>
+    <li><tt>MC_WC_MDITAB</tt>: New style <tt>MC_MTS_DOUBLEBUFFER</tt>.</li>
+    <li>Many minor bug fixes, enhancements and optimizations.</li>
+</ul>
+
 <h2>0.8.4</h2>
 <ul>
     <li>Fixed a buffer overflow bug in <tt>mc_str_n()</tt> which could lead to
