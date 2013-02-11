@@ -3,7 +3,7 @@ require "_page.inc";
 page_header("Home");
 ?>
 
-<div class="info_direction">
+<div class="info" id="direction">
     New to the mCtrl project?<br>
     Start your survey on <a href="about.php">About</a> and <a href="gallery.php">Gallery</a>.
 </div>
