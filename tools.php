@@ -24,7 +24,7 @@ developers can find it useful too.</p>
     <li><span class=hinline>Download:</span><a href="http://sourceforge.net/projects/mctrl/files/theme-explorer/">
         http://sourceforge.net/projects/mctrl/files/theme-explorer</a></li>
     <li><span class=hinline>Code repository:</span>
-        <a href="http://github.com/mity/mctrl">http://github.com/mity/mctrl</a></li>
+        <a href="http://github.com/mity/theme-explorer">http://github.com/mity/theme-explorer</a></li>
     <li><span class=hinline>System requirements:</span> MS Windows XP or newer
         (because of <tt>UXTHEME.DLL</tt>) with visual styles enabled</li>
     <li><span class=hinline>License:</span> <a href="http://www.gnu.org/licenses/gpl-2.0.html">
