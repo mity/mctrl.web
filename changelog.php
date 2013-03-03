@@ -3,6 +3,31 @@ require "_page.inc";
 page_header("ChangeLog");
 ?>
 
+<h2>0.9.1</h2>
+<ul>
+    <li><tt>MC_WC_EXPAND</tt>: Support animation (style <tt>MC_EXS_ANIMATE</tt>).</li>
+    <li><tt>MC_WC_EXPAND</tt>: New style <tt>MC_EXS_IGNORECHILDREN</tt>.</li>
+    <li><tt>MC_WC_EXPAND</tt>: New notifications <tt>MC_EXN_EXPANDING</tt> and
+        <tt>MC_EXN_EXPANDED</tt>.</li>
+    <li><tt>MC_WC_TREELIST</tt>: New notifications <tt>MC_TLN_DELETEITEM</tt>,
+        <tt>MC_TLN_SELCHANGING</tt>, <tt>MC_TLN_SELCHANGED</tt>,
+        <tt>MC_TLN_EXPANDING</tt> and <tt>MC_TLN_EXPANDED</tt>.</li>
+    <li><tt>MC_WC_TREELIST</tt>: Add member <tt>MC_TLITEM::cChildren</tt>.
+        Together with expand notifications ablove this allows applications
+        to populate large trees dynamically.</li>
+    <li>Double-buffering on Windows Vista and newer uses buffer paint API of
+        <tt>UXTHEME.DLL</tt>, leading ot better performance due compatible
+        bitmap caching.</li>
+    <li><tt>MC_WC_MDITAB</tt>: New messages <tt>MC_MTM_GETITEMRECT</tt> and
+        <tt>MC_MTM_ENSUREVISIBLE</tt>.</li>
+    <li><tt>MC_WC_MDITAB</tt>: Support animation (style <tt>MC_MTS_ANIMATE</tt>).</li>
+    <li><tt>MC_WC_MDITAB</tt>: Support items with different width (calculated
+        from label text extents). This is now default behavior.</li>
+    <li><tt>MC_WC_MDITAB</tt>: Fix message <tt>MC_MTM_GETITEM</tt> (patch by ArmstrongJ).</li>
+    <li>Provide <tt>UXTHEME.DLL</tt> wrapper functions (<tt>mCtrl/theme.h</tt>).</li>
+    <li>And as almost always, ton of smaller fixes and enhancements.</li>
+</ul>
+
 <h2>0.9.0</h2>
 <ul>
     <li>All controls: Renumbered message and notification values so that they
@@ -30,7 +55,7 @@ page_header("ChangeLog");
     <li><tt>MC_WC_HTML</tt>: New messages <tt>MC_HM_GOBACK</tt> and <tt>MC_HM_CANBACK</tt>.</li>
     <li><tt>MC_WC_HTML</tt>: New notifications <tt>MC_HN_HISTORY</tt>, <tt>MC_HN_STATUSTEXT</tt>, <tt>MC_HN_TITLETEXT</tt>, <tt>MC_HN_PROGRESS</tt> and <tt>MC_HN_NEWWINDOW</tt>.</li>
     <li>Many controls now support common messages <tt>CCM_SETUNICODEFORMAT</tt>, <tt>CCM_GETUNICODEFORMAT</tt>,
-    <tt>CCM_SETUNICODEFORMAT</tt> and <tt>CCM_SETNOTIFYWINDOW</tt>.</li>
+        <tt>CCM_SETUNICODEFORMAT</tt> and <tt>CCM_SETNOTIFYWINDOW</tt>.</li>
     <li>Controls now support standard notification <tt>NM_OUTOFMEMORY</tt>.</li>
     <li>New functions for dialog handling.</li>
     <li>Many minor bug fixes, enhancements and optimizations.</li>

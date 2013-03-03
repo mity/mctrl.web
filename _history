@@ -1,3 +1,4 @@
+2013-03-03 | Minor update 0.9.1 comes. The coolest news of this release is animation of MdiTab and expand controls, but of course there is more. See <a href="changelog.php">ChangeLog</a> for more info.
 2013-02-06 | New version 0.9.0 brings many new features, including new chart control, expand control and tree-list view control. Note that it also breaks binary  compatibility with older versions. However I consider it as a major step towards 1.0 and API freeze. See <a href="changelog.php">ChangeLog</a> for more complete list of changes.
 2013-02-01 | Moved code repositories to <a href="http://github.com">github.com</a>. The project homepage and release package distribution will continue to be hosted on sourceforge.net.
 2013-01-29 | 0.8.4 release, which fixes one but important bug. All users of older version are recommended to upgrade. More info in the <a href="changelog.php">ChangeLog</a>.

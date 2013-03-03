@@ -12,3 +12,4 @@ Sitemap: http://mctrl.sourceforge.net/doc-0.8.2/sitemap.xml
 Sitemap: http://mctrl.sourceforge.net/doc-0.8.3/sitemap.xml
 Sitemap: http://mctrl.sourceforge.net/doc-0.8.4/sitemap.xml
 Sitemap: http://mctrl.sourceforge.net/doc-0.9.0/sitemap.xml
+Sitemap: http://mctrl.sourceforge.net/doc-0.9.1/sitemap.xml
