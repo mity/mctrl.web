@@ -3,7 +3,7 @@ BODY {
     background: rgb(255,255,255);
     margin: 3em auto;
     font-family: arial, helvetica, sans-serif;
-    max-width: 800px
+    max-width: 800px;
 }
 
 H1 {
@@ -83,6 +83,15 @@ A IMG {
 
 A:hover IMG {
     background: rgb(223,223,255);
+}
+
+A#github IMG {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+    padding: 0px;
+    background: transparent;
 }
 
 #header {

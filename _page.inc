@@ -25,6 +25,11 @@ function page_header($title,$extra="")
     echo "\t<body>\n";
     echo "\n";
 
+    echo "<a id=\"github\" href=\"https://github.com/mity/mctrl\">\n";
+    echo "\t<img src=\"https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png\" alt=\"Fork me on GitHub\">\n";
+    echo "</a>\n";
+    echo "\n";
+
     echo "<div id=\"header\">\n";
     echo "\t<h1>mCtrl</h1>\n";
     echo "\t<div id=\"subtitle\">Bringing more controls for your Windows applications</div>\n";
