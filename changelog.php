@@ -3,6 +3,18 @@ require "_page.inc";
 page_header("ChangeLog");
 ?>
 
+<h2>0.9.2</h2>
+<ul>
+    <li><tt>MC_WC_TREELIST</tt>: Fix brush handle leak.</tt>
+    <li><tt>MC_WC_TREELIST</tt>: Fix background paiting when not themed.</tt>
+    <li><tt>MC_WC_MDITAB</tt>: Fix paiting when not themed.</tt>
+    <li><tt>MC_WC_HTML</tt>: Fix a malformed <tt>if</tt> condition  in history navigation handling. (coverity)</li>
+    <li><tt>MC_WC_TREELIST</tt>: Fix use-after-free bug. (coverity)</li>
+    <li><tt>MC_WC_PROPVIEW</tt>: Fix <tt>NULL</tt> dereference if no property set is asscociated with the control. (coverity)</li>
+    <li><tt>mcGetThemeMargins</tt>: Fix zeroing output parameter on the fallback path. (coverity)</li>
+    <li>And many other smaller bug fixes, mainly found by the Coverity source code static analysis.</li>
+</ul>
+
 <h2>0.9.1</h2>
 <ul>
     <li><tt>MC_WC_EXPAND</tt>: Support animation (style <tt>MC_EXS_ANIMATE</tt>).</li>
