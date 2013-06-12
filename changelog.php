@@ -3,6 +3,17 @@ require "_page.inc";
 page_header("ChangeLog");
 ?>
 
+<h2>0.9.3</h2>
+<ul>
+    <li><tt>MC_WC_TREELIST</tt>: Support for item icons.</li>
+    <li><tt>MC_WC_TREELIST</tt>: Support for individual item colors.
+        (patch by Jeff Armstrong)</li>
+    <li><tt>MC_WC_EXPAND</tt>: Instead of full-color bitmap, paint simple glyph
+        when unthemed. It fits better and also fixes paint glitch on Win2K.</li>
+    <li><tt>MC_WC_CHART</tt>: Fix painting when a font without TrueType outlines
+        is set to the control. It includes the default system font.</li>
+</ul>
+
 <h2>0.9.2</h2>
 <ul>
     <li><tt>MC_WC_TREELIST</tt>: Fix brush handle leak.</tt>
@@ -35,7 +46,7 @@ page_header("ChangeLog");
     <li><tt>MC_WC_MDITAB</tt>: Support animation (style <tt>MC_MTS_ANIMATE</tt>).</li>
     <li><tt>MC_WC_MDITAB</tt>: Support items with different width (calculated
         from label text extents). This is now default behavior.</li>
-    <li><tt>MC_WC_MDITAB</tt>: Fix message <tt>MC_MTM_GETITEM</tt> (patch by ArmstrongJ).</li>
+    <li><tt>MC_WC_MDITAB</tt>: Fix message <tt>MC_MTM_GETITEM</tt> (patch by Jeff Armstrong).</li>
     <li>Provide <tt>UXTHEME.DLL</tt> wrapper functions (<tt>mCtrl/theme.h</tt>).</li>
     <li>And as almost always, ton of smaller fixes and enhancements.</li>
 </ul>
