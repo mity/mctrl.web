@@ -1,3 +1,4 @@
+2013-07-21 | Version 0.9.4 released. It contains many important bug fixes. See <a href="changelog.php">ChangeLog</a>.
 2013-06-12 | Version 0.9.3 released. Minor enhancements of the tree-list control and few assorted bugfixes. More details in the <a href="changelog.php">ChangeLog</a>.
 2013-03-12 | Version 0.9.2 released. No new features, but many bugfixes.
 2013-03-12 | What a busy week. I experienced hard disk failure, so spent a lot of time to save some data, reinstalling Windows and all the SW on new disk. A lot of fun was also caused bz the idea to register mCtrl as a project for <a href="http://scan.coverity.com/">Coverity Scan</a>. False positive rate is quite low and acceptable and it indeed found so many bugs, some of them quite major. Static analysis capabilities of the tool really impressed me. Thank you, Coverity!

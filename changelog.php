@@ -3,6 +3,31 @@ require "_page.inc";
 page_header("ChangeLog");
 ?>
 
+<h2>0.9.4</h2>
+<ul>
+    <li>Removed hard dependncy on <tt>OLE32.DLL</tt> and <tt>OLEAUT32.DLL</tt>.
+        These are loaded only in the run time when needed. (Only HTML control
+        needs it).</li>
+    <li><tt>MC_WC_CHART</tt>: Fixed painting for non-default factor exponents
+        (set by <tt>MC_CHM_SETFACTOREXPONENT</tt>).</li>
+    <li><tt>MC_WC_TREELIST</tt>: Added support for many standard mouse
+        notifications (<tt>NM_CLICK</tt>, <tt>NM_DBLCLK</tt>, <tt>NM_RCLICK</tt>,
+        <tt>NM_RDBLCLK</tt> and <tt>WM_CONTEXTMENU</tt>).</li>
+    <li><tt>MC_WC_TREELIST</tt>: Fixed handling of <tt>WM_THEMECHANGED</tt>.</li>
+    <li><tt>MC_WC_TREELIST</tt>: Fixed many issues when deleting items. They
+        ranged from some refresh glitches to crashes.</li>
+    <li><tt>MC_WC_TREELIST</tt>: Added support for hot item buttons.
+        (Used only when the theme suppots it. Aero does for theme subclass
+        <tt>&quot;EXPLORER&quot;</tt>.)
+    <li><tt>MC_WC_TREELIST</tt>: Fixed reallocation of subitems when inserting
+        or deleting a column.</li>
+    <li><tt>MC_WC_HTML</tt>: Fixed handling state of history (message
+        <tt>MC_HM_CANBACK</tt> and notification <tt>MC_HN_HISTORY</tt>).
+    <li><tt>MC_WC_HTML</tt>: Fix a possible crash by freeing a data not living
+        on the heap.</li>
+    <li><tt>MC_WC_CHART</tt>: Fixed some tooltip issues.</li>
+</ul>
+
 <h2>0.9.3</h2>
 <ul>
     <li><tt>MC_WC_TREELIST</tt>: Support for item icons.</li>
