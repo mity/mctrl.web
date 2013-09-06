@@ -3,9 +3,46 @@ require "_page.inc";
 page_header("ChangeLog");
 ?>
 
+<p><span class=hinline>Disclaimer:</span> This change log covers mainly fixes and
+changes in the API visible on the public interface. For complete list of all
+changes, refer to the complete
+<a href="https://github.com/mity/mctrl/commits/master">history of git repository</a>.</p>
+
+<h2>0.9.5</h2>
+<ul>
+    <li><tt>MC_WC_PROPVIEW</tt>: Removed from master. It was too unusable to
+        be in master.</li>
+    <li><tt>MC_WC_TREELIST</tt>: Add support for <tt>MC_TLE_COLLAPSERESET</tt>,
+        improving performance and simplicity of item removal on collapse in
+        dynamically populated trees.</li>
+    <li><tt>MC_WC_TREELIST</tt>: Rename <tt>MC_TLIF_LPARAM</tt> to
+        <tt>MC_TLIF_PARAM</tt>. The former is kept for compatibility but should
+        be avoided in new code, and shall be removed in future.</li>
+    <li><tt>MC_WC_TREELIST</tt>: Remove holding of colors for each item.
+        This is replace with support for custom draw.</li>
+    <li><tt>MC_WC_TREELIST</tt>: Added support for custom draw, using the
+        standard <tt>NM_CUSTOMDRAW</tt> notification.</li>
+    <li><tt>MC_WC_TREELIST</tt>: Added support for style <tt>MC_TLS_GRIDLINES</tt>.</li>
+    <li><tt>MC_WC_TREELIST</tt>: Added support for item display callbacks
+        (<tt>MC_LPSTR_TEXTCALLBACK</tt>, <tt>MC_I_IMAGECALLBACK</tt> and
+        <tt>MC_I_CHILDRENCALLBACK</tt>).</li>
+    <li><tt>MC_WC_TREELIST</tt>: The control now sends standard notifications
+        <tt>NM_SETFOCUS</tt> and <tt>NM_KILLFOCUS</tt>.</li>
+    <li><tt>MC_WC_TREELIST</tt>: Fix double-free error when deleting items.</li>
+    <li><tt>MC_WC_TREELIST</tt>: Fix some painting glitches.</li>
+    <li><tt>MC_WC_TREELIST</tt>: Fix handling of <tt>WM_NOTIFYFORMAT</tt> from
+        child windows (typically, the header control).</li>
+    <li><tt>MC_WC_CHART</tt>: Added support for naming the chart axis. See
+        message <tt>MC_CHM_SETAXISLEGEND</tt>.</li>
+    <li><tt>MC_WC_HTML</tt>: Fix handling of <tt>WM_NOTIFYFORMAT</tt> from
+        child windows.</li>
+    <li>Many controls: Handle <tt>WM_SYSCOLORCHANGE</tt> properly.</li>
+    <li>Many controls: Fix handling of <tt>WM_STYLECHANGED</tt>.</li>
+</ul>
+
 <h2>0.9.4</h2>
 <ul>
-    <li>Removed hard dependncy on <tt>OLE32.DLL</tt> and <tt>OLEAUT32.DLL</tt>.
+    <li>Removed hard dependency on <tt>OLE32.DLL</tt> and <tt>OLEAUT32.DLL</tt>.
         These are loaded only in the run time when needed. (Only HTML control
         needs it).</li>
     <li><tt>MC_WC_CHART</tt>: Fixed painting for non-default factor exponents
