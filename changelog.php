@@ -3,10 +3,10 @@ require "_page.inc";
 page_header("ChangeLog");
 ?>
 
-<p><span class=hinline>Disclaimer:</span> This change log covers mainly fixes and
-changes in the API visible on the public interface. For complete list of all
-changes, refer to the complete
-<a href="https://github.com/mity/mctrl/commits/master">history of git repository</a>.</p>
+<div class="info">This change log covers mainly fixes and changes in the API
+visible on the public interface. For complete list of all changes, refer to the
+complete <a href="https://github.com/mity/mctrl/commits/master">history of git repository</a>.
+</div>
 
 <h2>0.9.5</h2>
 <ul>
