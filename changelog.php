@@ -3,10 +3,22 @@ require "_page.inc";
 page_header("ChangeLog");
 ?>
 
-<div class="info">This change log covers mainly fixes and changes in the API
-visible on the public interface. For complete list of all changes, refer to the
+<div class="info">This change log covers mainly fixes and changes visible in
+the public  API. For complete list of all changes, refer to the
 complete <a href="https://github.com/mity/mctrl/commits/master">history of git repository</a>.
 </div>
+
+<h2>0.9.6</h2>
+<ul>
+    <li><tt>MC_WC_IMGVIEW</tt>: New image view control, capable to present images of various formats (e.g. PNG, JPG, GIF and more), from file as well as from the resources.</li>
+    <li><tt>MC_WC_TREELIST</tt>: Added support for multi-selection (style <tt>MC_TLS_MULTISELECT</tt>). Contributed by Jeff Armstrong.</li>
+    <li><tt>MC_WC_MENUBAR</tt>: Look and feel much closer to the native menu, depending on the Window version.</li>
+    <li><tt>MC_WC_MENUBAR</tt>: Add support for <tt>WM_UPDATEUISTATE</tt>.</li>
+    <li><tt>MC_WC_MENUBAR</tt>: Enhance keyboard handling.</li>
+    <li><tt>MC_WC_MENUBAR</tt>: Add support for rebar chevron (function <tt>mcMenubar_HandleRebarChevronPushed()</tt>).</li>
+    <li><tt>MC_WC_HTML</tt>: Fixed crash when accessing resources via HTTPS (regression in 0.9.5).</li>
+    <li><tt>MC_WC_HTML</tt>: Fixed other potential crashes.</li>
+</ul>
 
 <h2>0.9.5</h2>
 <ul>

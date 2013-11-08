@@ -46,6 +46,17 @@ supported with various control styles:
 </p>
 
 
+<h2>Expand Control</h2>
+<a class="gallery" rel="lightbox" href="gallery/expand.png">
+    <img src="gallery/expand-thumb.png" alt="screenshot of the expand control">
+</a>
+
+<p>Expand control is a button with a capability to change size of other window
+(usually the dialog it is located on). It is capable to animate the size
+transition, and (for well designed dialogs) to magically compute the expanded
+&amp; collapsed sizes of the dialog form its own position in it.</p>
+
+
 <h2>Grid Control</h2>
 <a class="gallery" rel="lightbox" href="gallery/grid.png">
     <img src="gallery/grid-thumb.png" alt="screenshot of the grid control">
@@ -70,12 +81,25 @@ and allows you to incorporate local or remote HTML content into your
 programs easily through the <tt>SendMessage()</tt> as any other control.</p>
 
 
+<h2>Image View Control</h2>
+<a class="gallery" rel="lightbox" href="gallery/imgview.png">
+    <img src="gallery/imgview-thumb.png" alt="screenshot of the image view control">
+</a>
+
+<p>Image view control is similar to standard <tt>STATIC</tt> control with
+<tt>SS_ICON</tt> or <tt>SS_BITMAP</tt> style, but it is capable to utilize
+resources of broader image formats (BMP, GIF, JPG, PNG, WMF).</p>
+
+<p>Loading images from files on disk, as well as using resources embedded inside
+the DLL/EXE.</p>
+
+
 <h2>MDI Tab Control</h2>
 <a class="gallery" rel="lightbox" href="gallery/mditab.png">
     <img src="gallery/mditab-thumb.png" alt="screenshot of the MDI tab control">
 </a>
 
-<p>Win32API traditionaly offers
+<p>Win32API traditionally offers
 <a href="http://msdn.microsoft.com/en-us/library/ms632591%28v=VS.85%29.aspx">
 Multiple Document Interface (MDI)</a> for applications with capability to
 work with multiple documents in a single window. However many uses find MDI
@@ -95,7 +119,7 @@ replacement for MDI.</p>
 can be embedded into <tt>REBAR</tt> control. This solution allows user to save
 space on his monitor, by e.g. placing a toolbar and menubar to a single row.</p>
 
-<p>The control also offers a possibility to use the menubar on other palces then
+<p>The control also offers a possibility to use the menubar on other places then
 on top of client area.</p>
 
 <h2>Tree-List View Control</h2>
