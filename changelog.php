@@ -8,6 +8,31 @@ the public  API. For complete list of all changes, refer to the
 complete <a href="https://github.com/mity/mctrl/commits/master">history of git repository</a>.
 </div>
 
+<h2>0.9.7</h2>
+<ul>
+    <li><tt>MC_WC_GRID</tt> and its table model: Rework API to explicitly use
+        header and column cells instead of special interpretation of cells with
+        zero coordinate.</li>
+    <li><tt>MC_WC_GRID</tt>: Add support for new style <tt>MC_GS_OWNERDATA</tt>.</li>
+    <li><tt>MC_WC_GRID</tt>: Add support for new message <tt>MC_GM_REDRAWCELLS</tt>.</li>
+    <li><tt>MC_WC_GRID</tt>: Add support for setting width of columns
+        (<tt>MC_GM_SETCOLUMNWIDTH</tt>, <tt>MC_GM_GETCOLUMNWIDTH</tt>) and
+        height of rows (<tt>MC_GM_SETROWHEIGHT</tt>, <tt>MC_GM_GETROWHEIGHT</tt>)</li>
+    <li><tt>MC_WC_HTML</tt>: Fix doubling of some key accelerators and
+        navigation keys.</li>
+    <li><tt>MC_WC_HTML</tt>: Support of calling JavaScript function
+        (<tt>MC_HM_CALLSCRIPTFUNC</tt>, <tt>MC_HM_CALLSCRIPTFUNCEX</tt>).</li>
+    <li><tt>MC_WC_IMGVIEW</tt>: If available, paint with Direct2D rather then GDI+.</li>
+    <li><tt>MC_WC_CHART</tt>: If available, paint with Direct2D rather then GDI+.</li>
+    <li><tt>MC_WC_TREELIST</tt>: Many fixes and memory management improvements
+        (lazy allocation).</li>
+    <li>Generally improved compatibility if both mCtrl initialize COM in the
+        same thread(s).</li>
+    <li>Many minor fixes and enhancements everywhere.</li>
+    <li>Build: Transition from GNU Make to CMake.</li>
+    <li>Test: Started some work on a test-suite to catch regressions sooner.</li>
+</ul>
+
 <h2>0.9.6</h2>
 <ul>
     <li><tt>MC_WC_IMGVIEW</tt>: New image view control, capable to present images of various formats (e.g. PNG, JPG, GIF and more), from file as well as from the resources.</li>
