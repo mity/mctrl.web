@@ -21,10 +21,10 @@ the latest binary package from the <a href="download.php">download page</a>.
 <p>It was not until Windows Vista and <tt>COMCTL32.DLL</tt> 6.0 until the
 split buttons (<tt>BS_DEFSPLITBUTTON</tt>) were supported. Of course a lot of
 applications implemented them on their own again and again, but that's
-quote tedious work.</p>
+quite tedious work.</p>
 
-<p>mCtrl button control provides the split buttons everywhere where mCtrl is
-supported (i.e. since Windows 2000) and emulates the styled icon buttons
+<p>mCtrl button control provides reusable split buttons everywhere where mCtrl
+is supported (i.e. since Windows 2000) and emulates the styled icon buttons
 in Windows XP (if the application uses visual styles).</p>
 
 
@@ -44,6 +44,9 @@ supported with various control styles:
         <li>Scatter chart</li>
     </ul>
 </p>
+
+<p>Most of the chart types are available both in a standard as well as in
+a stacked variant.</p>
 
 
 <h2>Expand Control</h2>
