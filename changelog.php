@@ -8,6 +8,15 @@ the public  API. For complete list of all changes, refer to the
 complete <a href="https://github.com/mity/mctrl/commits/master">history of git repository</a>.
 </div>
 
+<h2>0.9.8</h2>
+<ul>
+    <li><tt>MC_WC_HTML</tt>: Added new message <tt>MC_HN_BEFORENAVIGATE</tt>.</li>
+    <li><tt>MC_WC_HTML</tt>: Fix compatibility of header <tt>mCtrl/html.h</tt> with MSVC 2013.</li>
+    <li><tt>MC_WC_CHART</tt>: Fix <tt>MC_CHM_SETAXISLEGENDW</tt>.</li>
+    <li><tt>MC_WC_CHART</tt>, <tt>MC_WC_IMGVIEW</tt>: Many fixes related to painting with Direct2D.</li>
+    <li>Examples: All examples are now built as Unicode applications.</li>
+</ul>
+
 <h2>0.9.7</h2>
 <ul>
     <li><tt>MC_WC_GRID</tt> and its table model: Rework API to explicitly use

@@ -18,3 +18,5 @@ Sitemap: http://mctrl.sourceforge.net/doc-0.9.3/sitemap.xml
 Sitemap: http://mctrl.sourceforge.net/doc-0.9.4/sitemap.xml
 Sitemap: http://mctrl.sourceforge.net/doc-0.9.5/sitemap.xml
 Sitemap: http://mctrl.sourceforge.net/doc-0.9.6/sitemap.xml
+Sitemap: http://mctrl.sourceforge.net/doc-0.9.7/sitemap.xml
+Sitemap: http://mctrl.sourceforge.net/doc-0.9.8/sitemap.xml

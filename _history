@@ -1,3 +1,4 @@
+2015-04-28 | Version 0.9.8 released. This is a bug-fix release. See <a href="changelog.php">ChangeLog</a>.
 2015-03-03 | Version 0.9.7 released. Plethora of fixes and improvements. See <a href="changelog.php">ChangeLog</a>.
 2013-10-08 | Version 0.9.6 released. Added image view control, multi-select in tree-list control and number of fixes. More detailed info can be found in the <a href="changelog.php">ChangeLog</a>.
 2013-09-05 | Version 0.9.5 released. The very incomplete property view removed from master branch, until it is at least a bit usable. Many bug fixes and minor enhancements, especially to the tree-list view control. See <a href="changelog.php">ChangeLog</a>.
