@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>http://mctrl.sourceforge.net/</loc>
+		<loc>http://www.mctrl.org/</loc>
 		<changefreq>monthly</changefreq>
 		<priority>0.7</priority>
 	</url>
 	<url>
-		<loc>http://mctrl.sourceforge.net/about.php</loc>
+		<loc>http://www.mctrl.org/about.php</loc>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://mctrl.sourceforge.net/archive.php</loc>
+		<loc>http://www.mctrl.org/archive.php</loc>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>http://mctrl.sourceforge.net/changelog.php</loc>
+		<loc>http://www.mctrl.org/changelog.php</loc>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>http://mctrl.sourceforge.net/doc.php</loc>
+		<loc>http://www.mctrl.org/doc.php</loc>
 		<changefreq>monthly</changefreq>
 		<priority>0.4</priority>
 	</url>
 	<url>
-		<loc>http://mctrl.sourceforge.net/index.php</loc>
+		<loc>http://www.mctrl.org/index.php</loc>
 		<changefreq>monthly</changefreq>
 		<priority>0.0</priority>
 	</url>
 	<url>
-		<loc>http://mctrl.sourceforge.net/download.php</loc>
+		<loc>http://www.mctrl.org/download.php</loc>
 		<changefreq>monthly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://mctrl.sourceforge.net/gallery.php</loc>
+		<loc>http://www.mctrl.org/gallery.php</loc>
 		<changefreq>monthly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://mctrl.sourceforge.net/tools.php</loc>
+		<loc>http://www.mctrl.org/tools.php</loc>
 		<changefreq>monthly</changefreq>
 		<priority>0.3</priority>
 	</url>

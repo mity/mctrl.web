@@ -15,14 +15,13 @@ These tools are helpful for development of mCtrl project. If you intend only use
 <p>This is a small tool to explore visual styles (aka themes) on Windows XP and
 later, as provided by <tt>UXTHEME.DLL</tt>.</p>
 
-<p>It has been developed as an auxiliery tool to be used during the development
-of the mCtrl project (http://mctrl.sourceforge.net) but possibly other UI
-developers can find it useful too.</p>
+<p>It has been developed as an auxiliary tool to be used during the development
+of the mCtrl project but possibly other UI developers can find it useful too.</p>
 
 <ul>
     <li><span class=hinline>Audience:</span> Custom control developers</li>
     <li><span class=hinline>Download:</span><a href="http://sourceforge.net/projects/mctrl/files/theme-explorer/">
-        http://sourceforge.net/projects/mctrl/files/theme-explorer</a></li>
+        http://www.mctrl.org/projects/mctrl/files/theme-explorer</a></li>
     <li><span class=hinline>Code repository:</span>
         <a href="http://github.com/mity/theme-explorer">http://github.com/mity/theme-explorer</a></li>
     <li><span class=hinline>System requirements:</span> MS Windows XP or newer
