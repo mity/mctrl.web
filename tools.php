@@ -4,7 +4,8 @@ page_header("Tools", "slimbox2");
 ?>
 
 <div class="info">
-These tools are helpful for development of mCtrl project. If you intend only use mCtrl, then you probably do not need them.
+<p>These tools are helpful for development of mCtrl project. If you intend only
+use mCtrl, then you probably do not need them.</p>
 </div>
 
 <h2 id="theme-explorer">Theme Explorer</h2>
