@@ -3,7 +3,8 @@ require "_page.inc";
 page_header("About");
 ?>
 
-<h2>Introduction</h2>
+
+<h2>What is mCtrl</h2>
 <p>mCtrl is C library providing set of additional user interface controls
 for Windows, intended to be complementary to standard Win32API controls from
 <tt>USER32.DLL</tt> and <tt>COMCTL32.DLL</tt>.</p>
@@ -11,14 +12,15 @@ for Windows, intended to be complementary to standard Win32API controls from
 <p>Visit <a href="gallery.php">Gallery</a> to see brief overview of provided
 controls.</p>
 
+
 <h2>Basic Features</h2>
 <ul>
-    <li><span class=hinline>Supported systems:</span> Windows 2000 and newer
-            (both 32bit and 64bit).</li>
+    <li><span class=hinline>Supported systems:</span> Windows 2000, XP, Vista,
+            7, 8, 8.1, 10 (both 32 bits and 64 bits are supported)</li>
     <li><span class=hinline>API:</span> Based on windows messages, in a manner
             similar to the API of <tt>USER32.DLL</tt> and <tt>COMCTL32.DLL</tt>.
     <li><span class=hinline>Unicode:</span> Internally all strings are Unicode.
-            The interface mimics the Win32API duality controled with the
+            The interface mimics the Win32API duality controlled with the
             preprocessor macro <tt>UNICODE</tt>.</li>
     <li><span class=hinline>Consistency:</span> The controls keep consistent
             look and feel with the system, including support for XP theming
@@ -26,10 +28,11 @@ controls.</p>
             visual styles</a>.</li>
 </ul>
 
+
 <h2>License</h2>
-<p>Since release 0.8.0, mCtrl is covered by
-<a href="http://www.gnu.org/licenses/lgpl-2.1.html">GNU Lesser General Public
-License version 2.1</a> or (at your option) newer version of the license.</p>
+<p>mCtrl is covered by <a href="http://www.gnu.org/licenses/lgpl-2.1.html">
+GNU Lesser General Public License version 2.1</a> or (at your option) newer
+version of the license.</p>
 
 <p>In brief, this generally means that:</p>
 <ul>
@@ -42,11 +45,9 @@ License version 2.1</a> or (at your option) newer version of the license.</p>
             version); or under the terms of GPL 2 (or any later version).</li>
 </ul>
 
-<p>Source code of examples is in public domain.</p>
+<p>Source code of examples is in public domain, so you may use them, modify
+them and distribute them as you wish, without any limitation.</p>
 
-<p>Releases older then the 0.8.0 were covered by stricter
-<a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU General Public License
-version 2.0</a> or (at your option) newer version of the license.</p>
 
 <?php
 page_footer();
