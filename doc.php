@@ -1,4 +1,4 @@
-<?php 
+<?php
 require "_page.inc";
 page_header("Documentation");
 ?>
@@ -7,19 +7,23 @@ page_header("Documentation");
 <p>The reference manual can be seen online here:</p>
 <ul>
 <?php
-    $items = scandir(".", 1);
-    for($i = 0; $i < count($items); $i++) {
-        $s = $items[$i];
-        if(sscanf($s, "doc-%s", $version) == 1)
-            echo "\t<li><a href=\"$s/\">mCtrl $version reference manual</a></li>\n";
+    $items = scandir("doc", 1);
+    foreach($items as $d) {
+        if($d[0] == '.')
+            continue;
+        if(!is_dir("doc/$d"))
+            continue;
+
+        echo "\t<li><a href=\"doc/$d/\">mCtrl $d reference manual</a></li>\n";
     }
 ?>
 </ul>
 
-<p>The reference manual can also be <a href="download.php">downloaded</a> for offline reading.</p>
+<p>The reference manual can also be <a href="download.php">downloaded</a> for
+offline reading (in newer releases, it is part of the binary package.)</p>
 
 <h2>Examples</h2>
-<p>Within the source code package you can find several examples demonstrating 
+<p>Within the source code package you can find several examples demonstrating
 usage of mCtrl library.</p>
 
 <?php
