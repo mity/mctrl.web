@@ -1,3 +1,4 @@
+2015-08-26 | Thanks to <a href="http://appveyor.com">appveyor.com</a>, mCtrl project is now continually integrated. Any commit/pull into the upstream repo triggers an automatic build with Microsoft Visual Studio 2013. See <a href="https://ci.appveyor.com/project/mity/mctrl/branch/master">the latest build results</a>.
 2015-04-28 | Version 0.9.8 released. This is a bug-fix release. See <a href="changelog.php">ChangeLog</a>.
 2015-03-03 | Version 0.9.7 released. Plethora of fixes and improvements. See <a href="changelog.php">ChangeLog</a>.
 2013-10-08 | Version 0.9.6 released. Added image view control, multi-select in tree-list control and number of fixes. More detailed info can be found in the <a href="changelog.php">ChangeLog</a>.
