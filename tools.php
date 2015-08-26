@@ -21,8 +21,8 @@ of the mCtrl project but possibly other UI developers can find it useful too.</p
 
 <ul>
     <li><span class=hinline>Audience:</span> Custom control developers</li>
-    <li><span class=hinline>Download:</span><a href="http://sourceforge.net/projects/mctrl/files/theme-explorer/">
-        http://www.mctrl.org/projects/mctrl/files/theme-explorer</a></li>
+    <li><span class=hinline>Download:</span><a href="https://github.com/mity/theme-explorer/releases">
+        https://github.com/mity/theme-explorer/releases</a></li>
     <li><span class=hinline>Code repository:</span>
         <a href="http://github.com/mity/theme-explorer">http://github.com/mity/theme-explorer</a></li>
     <li><span class=hinline>System requirements:</span> MS Windows XP or newer
