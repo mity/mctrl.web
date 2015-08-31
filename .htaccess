@@ -6,5 +6,5 @@ RewriteCond %{HTTP_HOST} ^[^.]+\.[^.]+$
 RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [L,R=301]
 
 # Disable access to internal data/PHP code by hiding it
-RewriteCond %{REQUEST_FILENAME} _.*
+RewriteCond %{REQUEST_FILENAME} /_.*
 RewriteRule ^ - [L,R=404]
