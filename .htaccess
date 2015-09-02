@@ -7,4 +7,8 @@ RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [L,R=301]
 
 # Disable access to internal data/PHP code by hiding it
 RewriteCond %{REQUEST_FILENAME} /_.*
-RewriteRule ^ - [L,R=404]
+RewriteRule ^ - [L,R=403]
+
+# Error documents
+ErrorDocument 404 /error-404.php
+ErrorDocument 403 /error-403.php
