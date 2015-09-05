@@ -1,4 +1,5 @@
 User-agent: *
+Disallow: /icon/
 Disallow: /lib/
 Sitemap: http://www.mctrl.org/sitemap.xml
 Sitemap: http://www.mctrl.org/doc/0.6.0/sitemap.xml
@@ -20,3 +21,4 @@ Sitemap: http://www.mctrl.org/doc/0.9.5/sitemap.xml
 Sitemap: http://www.mctrl.org/doc/0.9.6/sitemap.xml
 Sitemap: http://www.mctrl.org/doc/0.9.7/sitemap.xml
 Sitemap: http://www.mctrl.org/doc/0.9.8/sitemap.xml
+Sitemap: http://www.mctrl.org/doc/0.10.0/sitemap.xml

@@ -1,11 +1,13 @@
 <?php
 require "_page.inc";
 require "_download.inc";
+require "_misc.inc";
 page_header("Download Archive");
 ?>
 
 <?php
-$dirs = scandir("download", SCANDIR_SORT_DESCENDING);
+$dirs = scandir("download");
+usort($dirs, 'misc_version_compare_rev');
 foreach($dirs as &$d) {
     if($d[0] == '.')
         continue;

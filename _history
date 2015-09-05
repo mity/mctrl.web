@@ -1,3 +1,4 @@
+2015-09-05 | Version 0.10.0 released. A number of enhancements of the grid control, and as always a batch of fixes. See <a href="changelog.php">ChangeLog</a>.
 2015-08-26 | Time to leave <a href="http://sf.net">SourceForge.net</a>. For the project web site, we are migrating to our own domain, <a href="http://mctrl.org">mctrl.org</a>. Please update your bookmarks. For some time, our code already lives elsewhere, on <a href="https://github.org/mity/mctrl">GitHub</a>.
 2015-08-26 | Thanks to <a href="http://appveyor.com">appveyor.com</a>, mCtrl project is now continually integrated. Any commit/pull into the upstream repo triggers an automatic build with Microsoft Visual Studio 2013. See <a href="https://ci.appveyor.com/project/mity/mctrl/branch/master">the latest build results</a>.
 2015-04-28 | Version 0.9.8 released. This is a bug-fix release. See <a href="changelog.php">ChangeLog</a>.

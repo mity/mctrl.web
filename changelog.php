@@ -4,9 +4,41 @@ page_header("ChangeLog");
 ?>
 
 <div class="info">This change log covers mainly fixes and changes visible in
-the public  API. For complete list of all changes, refer to the
-complete <a href="https://github.com/mity/mctrl/commits/master">history of git repository</a>.
+the public API. For complete list of all changes, refer to the complete
+<a href="https://github.com/mity/mctrl/commits/master">history of git repository</a>.
 </div>
+
+<h2>0.10.0</h2>
+<ul>
+    <li><tt>MC_WC_CHART</tt>: Implement messages <tt>MC_CHM_GETAXISLEGEND</tt> and
+        <tt>MC_CHM_GETDATASETLEGEND</tt>.</li>
+    <li><tt>MC_WC_EXPAND</tt>: Enhanced animation. It is now smoother.</li>
+    <li><tt>MC_HVALUE</tt>: Get rid of this concept. It has been supported only
+        by the grid control and it never got the originally intended flexibility.
+        In contrast it blocked a development of other features.</li>
+    <li><tt>MC_WC_GRID</tt>: Add support for a concept of focused cell (style
+        <tt>MC_GS_FOCUSEDCELL</tt>) and four modes of cell selection
+        (styles <tt>MC_GS_NOSEL</tt>, <tt>MC_GS_SINGLESEL</tt>,
+        <tt>MC_GS_RECTSEL</tt>, <tt>MC_GS_COMPLEXSEL</tt>; messages
+        <tt>MC_GM_SETSELECTION</tt>, <tt>MC_GM_GETSELECTION</tt>; notifications
+        <tt>MC_GN_SELECTIONCHANGING</tt>, <tt>MC_GN_SELECTIONCHANGED</tt>).
+        Depending on the styles, user can navigate and change the focus or
+        selection on the keyboard.</li>
+    <li><tt>MC_WC_GRID</tt>: Add message <tt>MC_GM_ENSUREVISIBLE</tt>.</li>
+    <li><tt>MC_WC_GRID</tt>: Add support for hit testing (message
+        <tt>MC_GM_HITTEST</tt>).</li>
+    <li><tt>MC_WC_GRID</tt>: Add support for changing column widths and row
+        heights by mouse dragging (notifications <tt>MC_GS_RESIZABLECOLUMNS</tt>,
+        <tt>MC_GS_RESIZABLEROWS</tt>).</li>
+    <li><tt>MC_WC_GRID</tt>: Add support for custom drawing (notification
+        <tt>WM_NMCUSTOMDRAW</tt>). Added new example <tt>example-grid-customdraw.c</tt>
+        to demonstrate how to use it.</li>
+    <li><tt>MC_WC_GRID</tt>: Add support for more standard notifications:
+        <tt>NM_CLICK</tt>, <tt>NM_DBLCLK</tt>, <tt>NM_RCLICK</tt>, <tt>NM_RDBLCLK</tt>,
+        <tt>WM_CONTEXTMENU</tt>.</li>
+    <li>Examples and unit tests were renamed to have more descriptive file names.</li>
+    <li>Many minor fixes.</li>
+</ul>
 
 <h2>0.9.8</h2>
 <ul>

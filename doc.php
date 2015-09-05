@@ -1,5 +1,6 @@
 <?php
 require "_page.inc";
+require "_misc.inc";
 page_header("Documentation");
 ?>
 
@@ -7,7 +8,8 @@ page_header("Documentation");
 <p>The reference manual can be seen online here:</p>
 <ul>
 <?php
-    $items = scandir("doc", 1);
+    $items = scandir("doc");
+    usort($items, 'misc_version_compare_rev');
     foreach($items as $d) {
         if($d[0] == '.')
             continue;
