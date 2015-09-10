@@ -18,8 +18,8 @@ page_header("Home");
 
 <p>Currently the project is one man show. Feel free to
 <a href="mailto:mity[AT]morous[DOT]org">contact me</a> and join.
-There certainly is a lot of space for other developers, documentators or
-testers.</p>
+There certainly is a lot of space for other developers, documentation writers
+or testers.</p>
 
 <p>Last but not least some help about graphic would be also appreciated. The
 project still lacks any kind of logo and sometimes some icon for purposes
@@ -38,11 +38,11 @@ for further development.</p>
 
 <p>The version 0.9 is considered the last big step towards 1.0. During the 0.9.x
 lifetime the <tt>&lt;mCtrl/value.h&gt;</tt> and controls used that API (grid,
-property list view) should be finished and their API stablized, and once that
+property list view) should be finished and their API stabilized, and once that
 happens we will approach to release 1.0 as soon as possible.</p>
 
 <p>All the other controls and modules can be improved of course too, but
-for them the incompatibible changes in the API are very unlikely.</p>
+for them the incompatible changes in the API are very unlikely.</p>
 
 
 <?php

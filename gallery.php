@@ -4,9 +4,9 @@ page_header("Gallery", "slimbox2");
 ?>
 
 <div class="info">
-<p>The screenshots below are typically taken from small example application
+The screenshots below are typically taken from small example application
 distributed with the <tt>MCTRL.DLL</tt>. To try them live simply download
-the latest binary package from the <a href="download.php">download page</a>.</p>
+the latest binary package from the <a href="download.php">download page</a>.
 </div>
 
 <h2>Button Control</h2>
