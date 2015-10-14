@@ -1,6 +1,7 @@
 User-agent: *
-Disallow: /icon/
-Disallow: /lib/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /js/
 Sitemap: http://www.mctrl.org/sitemap.xml
 Sitemap: http://www.mctrl.org/doc/0.6.0/sitemap.xml
 Sitemap: http://www.mctrl.org/doc/0.6.1/sitemap.xml

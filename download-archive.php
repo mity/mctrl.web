@@ -2,8 +2,10 @@
 require "_page.inc";
 require "_download.inc";
 require "_misc.inc";
-page_header("Download Archive");
+page_header("All Releases");
 ?>
+
+<h2>All Releases</h2>
 
 <?php
 $dirs = scandir("download");
@@ -14,7 +16,6 @@ foreach($dirs as &$d) {
     if(!is_dir("download/$d"))
         continue;
 
-    echo "<h2>$d</h2>\n";
     download_version($d);
     echo "\n";
 }

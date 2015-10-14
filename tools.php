@@ -3,10 +3,18 @@ require "_page.inc";
 page_header("Tools", "slimbox2");
 ?>
 
-<div class="info">
-These tools are helpful for development of mCtrl project. If you intend only
-use mCtrl, then you probably do not need them.
+
+<div class="panel panel-info">
+    <div class="panel-heading">
+        <h3 class="panel-title">Note</h3>
+    </div>
+    <div class="panel-body">
+        <p>I found these tools immensely useful during mCtrl development. Perhaps you will find them useful too.</p>
+        <p>That said, note they are not connected with mCtrl project, they are work of their respective authors
+        and they are covered by their respective licenses.</p>
+    </div>
 </div>
+
 
 <h2 id="theme-explorer">Theme Explorer</h2>
 <a class="gallery" rel="lightbox" href="tools/theme-explorer.png">
@@ -20,17 +28,34 @@ later, as provided by <tt>UXTHEME.DLL</tt>.</p>
 of the mCtrl project but possibly other UI developers can find it useful too.</p>
 
 <ul>
-    <li><span class=hinline>Audience:</span> Custom control developers</li>
-    <li><span class=hinline>Download:</span><a href="https://github.com/mity/theme-explorer/releases">
+    <li><b>Audience:</b> Custom control developers</li>
+    <li><b>Download:</b><a href="https://github.com/mity/theme-explorer/releases">
         https://github.com/mity/theme-explorer/releases</a></li>
-    <li><span class=hinline>Code repository:</span>
+    <li><b>Code repository:</b>
         <a href="http://github.com/mity/theme-explorer">http://github.com/mity/theme-explorer</a></li>
-    <li><span class=hinline>System requirements:</span> MS Windows XP or newer
+    <li><b>System requirements:</b> MS Windows XP or newer
         (because of <tt>UXTHEME.DLL</tt>) with visual styles enabled</li>
-    <li><span class=hinline>License:</span> <a href="http://www.gnu.org/licenses/gpl-2.0.html">
+    <li><b>License:</b> <a href="http://www.gnu.org/licenses/gpl-2.0.html">
         GNU General Public License version 2.0</a> or (at your option) any later
         version</li>
 </ul>
+
+
+<h2 id="winspy++">WinSpy++</h2>
+<a class="gallery" rel="lightbox" href="tools/winspy.png">
+    <img src="tools/winspy-thumb.png" alt="screenshot of the button control">
+</a>
+
+<p>Great utility for tuning Win32API dialogs as well as for studying how various other Windows applications
+have designed their user interface.</p>
+
+<ul>
+    <li><b>Audience:</b> Win32API user interface developers</li>
+    <li><b>Homepage:</b><a href="http://www.catch22.net/software/winspy-17">
+        http://www.catch22.net/software/winspy-17</a></li>
+    <li><b>License:</b> Freeware</li>
+</ul>
+
 
 <?php
 page_footer();

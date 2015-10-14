@@ -1,0 +1,89 @@
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 730px;
+    }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    /* Remove the padding we set earlier */
+    .header, .marketing, .footer {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    /* Space out the masthead */
+    .header {
+        margin-bottom: 30px;
+    }
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .jumbotron {
+        border-bottom: 0;
+    }
+}
+
+/* Used for 'download' boxes, to vertically align rows with the buttons. */
+.table TBODY > TR.vert-align > TD {
+    vertical-align: middle;
+}
+
+/* Customize Bootstrap navigation bar. */
+.navbar-toggle {
+    /* Make space for github ribbon. */
+    margin-right: 145px;
+}
+
+/* Customize Bootstrap Jumbotron. */
+.jumbotron {
+    text-align: center;
+    background: transparent;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+/* Customize Bootstrap footer */
+.footer {
+    margin-top: 30px;
+    padding-top: 19px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+    text-align: center;
+}
+
+BODY {
+    /* Reserve a space for the fixed navigation at the top. */
+    padding-top: 70px;
+}
+
+H2 {
+    clear: both;
+}
+
+/* Github Fork me Ribbon */
+A#github IMG {
+    position: fixed;
+    top: 0;
+    right: 0;
+    border: 0;
+    padding: 0;
+    background: transparent;
+    z-index: 2000;
+}
+
+
+/* Control gallery (thumbnail links to full pictures) */
+.gallery {
+    float: right;
+    margin: 0px 0.5em 0.5em 0.5em;
+}
+A IMG {
+    background: transparent;
+    vertical-align: middle;
+    border: 0;
+    padding: 3px;
+}
+A:hover IMG {
+    background: rgb(223,223,255);
+}
+

@@ -3,46 +3,36 @@
 	<url>
 		<loc>http://www.mctrl.org/</loc>
 		<changefreq>monthly</changefreq>
-		<priority>0.7</priority>
+		<priority>1.0</priority>
 	</url>
 	<url>
 		<loc>http://www.mctrl.org/about.php</loc>
 		<changefreq>monthly</changefreq>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>http://www.mctrl.org/archive.php</loc>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
+		<priority>1.0</priority>
 	</url>
 	<url>
 		<loc>http://www.mctrl.org/changelog.php</loc>
 		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-	<url>
-		<loc>http://www.mctrl.org/doc.php</loc>
-		<changefreq>monthly</changefreq>
-		<priority>0.4</priority>
-	</url>
-	<url>
-		<loc>http://www.mctrl.org/index.php</loc>
-		<changefreq>monthly</changefreq>
-		<priority>0.0</priority>
+		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.mctrl.org/download.php</loc>
 		<changefreq>monthly</changefreq>
-		<priority>0.6</priority>
+		<priority>1.0</priority>
 	</url>
 	<url>
-		<loc>http://www.mctrl.org/gallery.php</loc>
+		<loc>http://www.mctrl.org/download-archive.php</loc>
 		<changefreq>monthly</changefreq>
-		<priority>0.6</priority>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>http://www.mctrl.org/news-archive.php</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.3</priority>
 	</url>
 	<url>
 		<loc>http://www.mctrl.org/tools.php</loc>
 		<changefreq>monthly</changefreq>
-		<priority>0.3</priority>
+		<priority>0.7</priority>
 	</url>
 </urlset>

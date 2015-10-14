@@ -1,3 +1,4 @@
+2015-10-14 | Website design overhaul. Hope you like it.
 2015-09-05 | Version 0.10.0 released. A number of enhancements of the grid control, and as always a batch of fixes. See <a href="changelog.php">ChangeLog</a>.
 2015-08-26 | Time to leave <a href="http://sf.net">SourceForge.net</a>. For the project web site, we are migrating to our own domain, <a href="http://mctrl.org">mctrl.org</a>. Please update your bookmarks. For some time, our code already lives elsewhere, on <a href="https://github.org/mity/mctrl">GitHub</a>.
 2015-08-26 | Thanks to <a href="http://appveyor.com">appveyor.com</a>, mCtrl project is now continually integrated. Any commit/pull into the upstream repo triggers an automatic build with Microsoft Visual Studio 2013. See <a href="https://ci.appveyor.com/project/mity/mctrl/branch/master">the latest build results</a>.
@@ -17,7 +18,7 @@
 2012-09-01 | The git repo has been moved from <tt>git://mctrl.git.sourceforge.net/gitroot/mctrl/mctrl</tt> to <tt>ssh://git.code.sf.net/p/mctrl/code</tt>.
 2012-05-11 | <a href="tools.php#theme-explorer">A ThemeExplorer</a>, new tool helping to explore dark corners of visual styles, has been born to developers. You can find it in <a href="http://sourceforge.net/projects/mctrl/files/theme-explorer/">sf.net project download area</a>.
 2011-08-24 | 0.8.2 released. There are assorted minor fixes and enhancements. See <a href="changelog.php">ChangeLog</a> for more details.
-2011-01-23 | 0.8.1 released quite soon after 0.8.0. Fixed the buggy grid styles <tt>MC_GS_COLUMNHEADERCUSTOM</tt> and <tt>MC_GS_ROWHEADERCUSTOM</tt> and more. See <a href="changelog.php">ChangeLog</a> for full list of changes.
+2011-01-23 | 0.8.1 released quite soon after 0.8.0. Fixed the buggy grid styles <code>MC_GS_COLUMNHEADERCUSTOM</code> and <code>MC_GS_ROWHEADERCUSTOM</code> and more. See <a href="changelog.php">ChangeLog</a> for full list of changes.
 2011-01-20 | 0.8.0 released and bringing new grid control. See <a href="changelog.php">ChangeLog</a> for list of changes.
 2011-01-18 | Relicensing the mCtrl library! The next release will be covered by <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL 2.1</a> instead of GPL 2.0.
 2010-12-17 | 0.7.1 released. See <a href="changelog.php">ChangeLog</a> for list of changes.
