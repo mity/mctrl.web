@@ -1,11 +1,11 @@
 <?php
 
 $download_desc_map = array(
-    "bin"    => "Prebuilt binary package (both 32-bit and 64-bit). Includes generated documentation.",
+    "bin"    => "Prebuilt binary package (both 32-bit and 64-bit). Includes reference manual.",
     "x86"    => "Prebuilt binary package (32-bit).",
     "x86_64" => "Prebuilt binary package (64-bit).",
-    "src"    => "Complete source tree.",
-    "doc"    => "Documentation package."
+    "src"    => "Complete source tree package.",
+    "doc"    => "Reference manual package."
 );
 
 function download_size($size, $unit="")
@@ -50,7 +50,7 @@ function download_version($version)
     $path = "doc/$version";
     if(file_exists($path)) {
         echo "\t\t\t<tr class=\"vert-align\">\n";
-        echo "\t\t\t\t<td><a href=\"$path\">Reference Manual</a><br><small class=\"text-muted\">See the Reference Manual online.</small></td>\n";
+        echo "\t\t\t\t<td><a href=\"$path\">Reference Manual</a><br><small class=\"text-muted\">View the Reference Manual online.</small></td>\n";
         echo "\t\t\t\t<td class=\"col-xs-1 text-right\"></td>\n";
         echo "\t\t\t\t<td class=\"col-xs-1\"><a class=\"btn btn-block btn-sm btn-primary\" href=\"$path\" role=\"button\">View</a></td>\n";
         echo "\t\t\t</tr>\n";

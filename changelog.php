@@ -14,6 +14,20 @@ page_header("ChangeLog");
     </div>
 </div>
 
+<h2>0.11.0</h2>
+<ul>
+    <li><code>MC_WC_MDITAB</code>: Big painting rework, with improved support for animation
+        of the control.</li>
+    <li><code>MC_WC_MDITAB</code>: Added Aero glass effect support with new style
+        <code>MC_MTS_EXTENDWINDOWFRAME</code> and function <code>mcMditab_DefWindowProc()</code>.</li>
+    <li><code>MC_WC_MDITAB</code>: Added new style <code>MC_MTS_DRAGDROP</code> to enabled support
+        of item reordering with drag-and-drop mouse operation.</li>
+    <li><code>MC_WC_MDITAB</code>: Added tooltip support.</li>
+    <li>Release binary package now contains more stuff: debug build of <tt>MCTRL.DLL</tt> for gcc and
+        Visual Studio and source code of examples.</li>
+    <li>Some minor fixes.</li>
+</ul>
+
 <h2>0.10.0</h2>
 <ul>
     <li><code>MC_WC_CHART</code>: Implement messages <code>MC_CHM_GETAXISLEGEND</code> and

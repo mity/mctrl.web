@@ -54,6 +54,7 @@
 BODY {
     /* Reserve a space for the fixed navigation at the top. */
     padding-top: 70px;
+    padding-bottom: 30px
 }
 
 H2 {
@@ -87,3 +88,12 @@ A:hover IMG {
     background: rgb(223,223,255);
 }
 
+TT {
+    color: rgb(0,0,0);
+    background: transparent;
+}
+
+CODE {
+    color: rgb(0,0,0);
+    background: rgb(239,239,239);
+}

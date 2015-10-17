@@ -112,8 +112,10 @@ function page_news($min_count=3, $max_days=0)
                 break;
         }
 
-        //echo "\t<li><span class=hinline>$item_date:</span> $item_desc</li>\n";
-        echo "\t<p><span class=\"label label-default\">$item_date</span> $item_desc</p>\n";
+        echo "\t<p><span class=\"label label-default\">$item_date</span> ";
+        if(strtotime(date("Y-m-d")) < strtotime("+10 days", strtotime("$item_date")))
+            echo "<span class=\"label label-success\">New</span> ";
+        echo "$item_desc</p>\n";
         $n++;
     }
     fclose($f);
