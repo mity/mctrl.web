@@ -29,7 +29,8 @@ to be complementary to standard Win32API controls from <tt>USER32.DLL</tt> and <
                 <h3 class="panel-title">API</h3>
             </div>
             <div class="panel-body">
-                API is based on windows messages, similarly to the API of <tt>USER32.DLL</tt> and <tt>COMCTL32.DLL</tt>.
+                API is based on <code>SendMessage()</code>, similarly to the API of <tt>USER32.DLL</tt>
+                and <tt>COMCTL32.DLL</tt>.
             </div>
         </div>
     </div>
@@ -42,8 +43,8 @@ to be complementary to standard Win32API controls from <tt>USER32.DLL</tt> and <
                 <h3 class="panel-title">Unicode</h3>
             </div>
             <div class="panel-body">
-                Internally all strings are Unicode. The interface mimics the Win32API duality controlled with the
-                preprocessor macro <code>UNICODE</code>.
+                Internally all strings are Unicode. The interface mimics the Win32API duality controlled
+                with the preprocessor macro <code>UNICODE</code>.
             </div>
         </div>
     </div>
@@ -103,8 +104,8 @@ supported with various control styles:
     </ul>
 </p>
 
-<p>Most of the chart types are available both in a standard as well as in
-a stacked variant.</p>
+<p>Most of the chart types are available both in the standard as well as in
+the stacked variant.</p>
 
 
 <h2>Expand Control</h2>
@@ -112,9 +113,9 @@ a stacked variant.</p>
     <img src="gallery/expand-thumb.png" alt="screenshot of the expand control">
 </a>
 
-<p>Expand control is a button with a capability to change size of other window
+<p>Expand control is a button with the capability to change size of other window
 (usually the dialog it is located on). It is capable to animate the size
-transition, and (for well designed dialogs) to magically compute the expanded
+transition and (for well designed dialogs) to magically compute the expanded
 &amp; collapsed sizes of the dialog form its own position in it.</p>
 
 
@@ -134,9 +135,9 @@ presented in the right way. In many cases, the grid may be the right way.</p>
 
 <p>Embed power of web browser into into your application.</p>
 
-<p>The control is lightweight wrapper of Internet Explorer COM object and
-allows you to incorporate local or remote HTML content into your programs
-easily through the <code>SendMessage()</code> as any other control.</p>
+<p>The control is light-weight wrapper of Internet Explorer COM object and
+allows you to incorporate local or remote HTML content into your program, using
+simply the <code>SendMessage()</code> as for any other control.</p>
 
 <p>Cooperation between the application and HTML may be achieved by getting
 notifications when user clicks on a link, and by calling JavaScript functions
@@ -154,7 +155,7 @@ presented with various scaling options.">
 <code>SS_ICON</code> or <code>SS_BITMAP</code> style, but it is capable to utilize
 resources of broader image formats (BMP, GIF, JPG, PNG, WMF).</p>
 
-<p>Loading images from files on disk, as well as using resources embedded inside
+<p>It can load images from files on disk, as well as use resources embedded inside
 the DLL/EXE.</p>
 
 
@@ -180,12 +181,13 @@ title="mCtrl manubar control embedded in a standard rebar control.">
     <img src="gallery/menubar-thumb.png" alt="screenshot of the menubar control">
 </a>
 
-<p>Instead of standard window menu, many applications use a menubar which
-can be embedded into <code>REBAR</code> control. This solution allows user to save
-space on his monitor, by e.g. placing a toolbar and menubar to a single row.</p>
+<p>Instead of standard window menu, many applications use a menubar which can be
+embedded into the <code>REBAR</code> control. This solution allows user to save
+space on his display, by e.g. placing a toolbar and menubar to a single row.</p>
 
-<p>The control also offers a possibility to use the menubar on other places then
-on top of client area.</p>
+<p>The menubar control offers exactly this feature. It also provides the possibility
+to place the menubar on other spot then just on top of client area of the application
+window.</p>
 
 
 <h2>Tree-List View Control</h2>
@@ -193,8 +195,8 @@ on top of client area.</p>
     <img src="gallery/treelist-thumb.png" alt="screenshot of the tree-list view control">
 </a>
 
-<p>This control combines power of standard tree view and list view (with the
-<code>LVS_REPORT</code> style).</p>
+<p>This control combines powers of standard tree view and list view with the
+<code>LVS_REPORT</code> style.</p>
 
 
 <h2>License</h2>
