@@ -1,3 +1,5 @@
+2016-05-24 | Version 0.11.1 released. Many bug fixes and improvements. See <a href="changelog.php">ChangeLog</a>.
+2016-04-11 | mCtrl's GDI+/Direct2D wrapper code has been isolated into a standalone and reusable library, WinDrawLib. You may find more about it in <a href="http://www.codeproject.com/Articles/1091754/WinDrawLib">the article on CodeProject.com</a>.
 2015-10-17 | Version 0.11.0 released. The highlight of this version is great enhancement of the MDI tab control with support for the Aero glass effect. See <a href="changelog.php">ChangeLog</a> for more info.
 2015-10-14 | Website design overhaul. Hope you like it.
 2015-09-05 | Version 0.10.0 released. A number of enhancements of the grid control, and as always a batch of fixes. See <a href="changelog.php">ChangeLog</a>.

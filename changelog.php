@@ -14,6 +14,23 @@ page_header("ChangeLog");
     </div>
 </div>
 
+<h2>0.11.1</h2>
+<ul>
+    <li>Almost all controls now support right-to-left text layout with the
+        extended style <code>WS_EX_RTLLAYOUT</code> properly.
+        (Only for <code>MC_GS_CHART</code>, it is still known to be broken.)</li>
+    <li><code>MC_WC_GRID</code>: Add support for cell label editing
+        (style <code>MC_GS_EDITLABELS</code> and related messages and notifications).</li>
+    <li><code>MC_WC_GRID</code>: Add support for selecting multiple cells with mouse dragging.</li>
+    <li><code>MC_WC_MDITAB</code>: Items support special callback values
+        <code>MC_I_IMAGECALLBACK</code> and <code>MC_LPSTR_TEXTCALLBACK</code>.</li>
+    <li><code>MC_WC_TREELIST</code>: Add messages <code>MC_MTM_GETITEMRECT</code>
+        and <code>MC_MTM_GETSUBITEMRECT</code>.</li>
+    <li><code>MC_WC_TREELIST</code>: Add tooltip support.</li>
+    <li>When building with gcc, enable explicitly ASLR and DEP.</li>
+    <li>Many fixes.</li>
+</ul>
+
 <h2>0.11.0</h2>
 <ul>
     <li><code>MC_WC_MDITAB</code>: Big painting rework, with improved support for animation

@@ -86,7 +86,7 @@ function page_footer()
 {
     echo "</div>\n";
     echo "<footer class=\"footer\">\n";
-    echo "\t<p>&copy; 2015 Martin Mitáš</p>\n";
+    echo "\t<p>&copy; 2015-2016 Martin Mitáš</p>\n";
     echo "</footer>\n";
     echo "\n";
     echo "\t</body>\n";

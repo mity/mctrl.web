@@ -24,3 +24,4 @@ Sitemap: http://www.mctrl.org/doc/0.9.7/sitemap.xml
 Sitemap: http://www.mctrl.org/doc/0.9.8/sitemap.xml
 Sitemap: http://www.mctrl.org/doc/0.10.0/sitemap.xml
 Sitemap: http://www.mctrl.org/doc/0.11.0/sitemap.xml
+Sitemap: http://www.mctrl.org/doc/0.11.1/sitemap.xml
