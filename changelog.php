@@ -14,11 +14,21 @@ page_header("ChangeLog");
     </div>
 </div>
 
+<h2>0.11.2</h2>
+<ul>
+    <li><code>MC_WC_EXPAND</code>: Added Italian resources for the control. Contributed by Carlo Bramini.</li>
+    <li><code>MC_WC_TREELIST</code>: Fixed programmatic setting of selection via <code>MC_TLM_SETITEM</code>.</li>
+    <li><code>MC_WC_HTML</code>: Fixed destruction of the embedded web browser COM object. In some corner cases there were some crashes or memory leaks. Thanks to dlaundon for reporting the issue and testing the fix.</li>
+    <li>Improvements to make mCtrl buildable with MSVC 6.0. Contributed by Carlo Bramini.</li>
+    <li>Few fixes and improvements in examples.</li>
+    <li>Few other code cleanups.</li>
+</ul>
+
 <h2>0.11.1</h2>
 <ul>
     <li>Almost all controls now support right-to-left text layout with the
         extended style <code>WS_EX_RTLLAYOUT</code> properly.
-        (Only for <code>MC_GS_CHART</code>, it is still known to be broken.)</li>
+        (But not yet for <code>MC_GS_CHART</code>, it is still known to be broken.)</li>
     <li><code>MC_WC_GRID</code>: Add support for cell label editing
         (style <code>MC_GS_EDITLABELS</code> and related messages and notifications).</li>
     <li><code>MC_WC_GRID</code>: Add support for selecting multiple cells with mouse dragging.</li>
