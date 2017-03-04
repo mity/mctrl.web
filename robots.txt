@@ -3,6 +3,7 @@ Disallow: /css/
 Disallow: /fonts/
 Disallow: /js/
 Sitemap: http://www.mctrl.org/sitemap.xml
+Sitemap: http://www.mctrl.org/doc/0.11.3/sitemap.xml
 Sitemap: http://www.mctrl.org/doc/0.11.2/sitemap.xml
 Sitemap: http://www.mctrl.org/doc/0.11.1/sitemap.xml
 Sitemap: http://www.mctrl.org/doc/0.11.0/sitemap.xml

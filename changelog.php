@@ -14,11 +14,28 @@ page_header("ChangeLog");
     </div>
 </div>
 
+<h2>0.11.3</h2>
+<ul>
+    <li><code>MC_WC_MENUBAR</code>: Multiple fixes improving handling of
+        <kbd>Alt</kbd> and <kbd>AltGr</kbd> keys. Special thanks to Václav Slavík
+        for all the help with this.</li>
+    <li><code>MC_WC_MENUBAR</code>: Fixed crash caused by pressing space, while
+        having the menubar activated.</li>
+    <li><code>MC_WC_GRID</code>: Fixes support for <code>MC_LPSTR_TEXTCALLBACK</code>.
+        There was an invalid-free error and <code>MC_GN_GETDISPINFO</code> was sent with
+        incorrect parameters.</li>
+    <li><code>MC_WC_GRID</code>: Double-click by default starts cell editing
+        (if allowed by <code>MC_GS_EDITLABELS</code>). Contributed by Jordi Latorre.</li>
+    <li>Various fixes related to double buffering.</li>
+</ul>
+
 <h2>0.11.2</h2>
 <ul>
     <li><code>MC_WC_EXPAND</code>: Added Italian resources for the control. Contributed by Carlo Bramini.</li>
     <li><code>MC_WC_TREELIST</code>: Fixed programmatic setting of selection via <code>MC_TLM_SETITEM</code>.</li>
-    <li><code>MC_WC_HTML</code>: Fixed destruction of the embedded web browser COM object. In some corner cases there were some crashes or memory leaks. Thanks to dlaundon for reporting the issue and testing the fix.</li>
+    <li><code>MC_WC_HTML</code>: Fixed destruction of the embedded web browser COM object.
+        In some corner cases there were some crashes or memory leaks. Thanks to Dave Laundon
+        for reporting the issue and testing the fix.</li>
     <li>Improvements to make mCtrl buildable with MSVC 6.0. Contributed by Carlo Bramini.</li>
     <li>Few fixes and improvements in examples.</li>
     <li>Few other code cleanups.</li>

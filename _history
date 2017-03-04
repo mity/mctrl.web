@@ -1,3 +1,4 @@
+2017-03-04 | Version 0.11.3 released. Many bug fixes. See <a href="changelog.php">ChangeLog</a>.
 2016-10-21 | Version 0.11.2 released. Many bug fixes. Applications using the HTML control are advised to upgrade. See <a href="changelog.php">ChangeLog</a>.
 2016-05-24 | Version 0.11.1 released. Many bug fixes and improvements. See <a href="changelog.php">ChangeLog</a>.
 2016-04-11 | mCtrl's GDI+/Direct2D wrapper code has been isolated into a standalone and reusable library, WinDrawLib. You may find more about it in <a href="http://www.codeproject.com/Articles/1091754/WinDrawLib">the article on CodeProject.com</a>.
