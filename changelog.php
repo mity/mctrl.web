@@ -14,6 +14,16 @@ page_header("ChangeLog");
     </div>
 </div>
 
+<h2>0.11.4</h2>
+<ul>
+    <li><code>MC_WC_GRID</code>: Fixed minor bug related to multi-cell selection marquee while dragging.</li>
+    <li><code>MC_WC_GRID</code>: Fixed several bugs related to label editing (style <code>MC_GS_EDITLABELS</code>).</li>
+    <li><code>MC_WC_GRID</code>: Fixed bad clipping when painting column and row headers.
+        (They could sometime paint in non-client area over scrollbars.)</li>
+    <li><code>MC_WC_MENUBAR</code>: Fixed bogus drop-down reopening (could happen if application used quite complicated message loop.)</li>
+    <li>Improved support for building with Microsoft Visual Studio 2017.</li>
+</ul>
+
 <h2>0.11.3</h2>
 <ul>
     <li><code>MC_WC_MENUBAR</code>: Multiple fixes improving handling of
