@@ -1,9 +1,15 @@
 
 RewriteEngine On
 
-# Prepend subdomain www if there is none:
-RewriteCond %{HTTP_HOST} ^[^.]+\.[^.]+$
+# Prepend subdomain www if there is none (HTTP):
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [L,R=301]
+
+# Prepend subdomain www if there is none (HTTPS):
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteCond %{HTTPS} on
+RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [L,R=301]
 
 # Disable access to internal data/PHP code by hiding it
 RewriteCond %{REQUEST_FILENAME} /_[a-z].*
