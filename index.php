@@ -22,7 +22,7 @@ page_header("Home");
 
 <p class="text-center">
     <a class="btn btn-sm btn-primary" href="changelog.php" role="button">Change log</a>
-    <a class="btn btn-sm btn-primary" href="download.php" role="button">More downloads</a>
+    <a class="btn btn-sm btn-primary" href="download.php" role="button">Older releases</a>
 </p>
 
 <h2>News</h2>

@@ -14,6 +14,18 @@ page_header("ChangeLog");
     </div>
 </div>
 
+<h2>0.11.5</h2>
+<ul>
+    <li>Improved painting performance of controls which use Direct2D.</li>
+    <li><code>MC_WC_MDITAB</code>: Fix regression in 0.11.4, which caused strange alpha
+        channel effects when painting the items.</li>
+    <li><code>MC_WC_MDITAB</code>: Add support for more simplistic rectangular items
+        (and make them default). The rounded items are still supported with new style
+        <code>MC_MTS_ROUNDEDITEMS</code>.</li>
+    <li><em>Note:</em> This is the last version supporting Windows 2000 and XP. Supporting
+        those system is becoming too big burden.</li>
+</ul>
+
 <h2>0.11.4</h2>
 <ul>
     <li><code>MC_WC_GRID</code>: Fixed minor bug related to multi-cell selection marquee while dragging.</li>
